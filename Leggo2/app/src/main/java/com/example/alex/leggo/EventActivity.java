@@ -59,14 +59,13 @@ public class EventActivity extends AppCompatActivity {
     };
     private Integer[] Imgid = {
 
-            R.drawable.python_640x400, R.drawable.web_design_schools, R.drawable.network_security
 
     };
 
 
     public void setImg() {
         ImageView img = (ImageView) findViewById(R.id.eventImg);
-        img.setImageResource(Imgid[0]);
+//        img.setImageResource(Imgid[0]);/
     }
 
     public void setDistance() {
