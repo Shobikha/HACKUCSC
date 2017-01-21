@@ -14,19 +14,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="YAY WE ARE 2% done!!!" />
-
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@mipmap/ic_launcher"
-        android:layout_marginTop="129dp"
-        android:id="@+id/imageButton"
-        android:layout_marginLeft="35dp"
-        android:layout_marginStart="35dp"
-        android:layout_below="@+id/textView"
-        android:layout_toRightOf="@+id/event"
-        android:layout_toEndOf="@+id/event" />
+        android:text="YAY WE ARE 5% done!!!" />
 
     <ImageButton
         android:layout_width="wrap_content"
@@ -36,8 +24,28 @@
         android:layout_marginStart="41dp"
         android:layout_marginTop="100dp"
         android:id="@+id/event"
-        android:layout_below="@+id/textView"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:onClick="StartEvent" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/chat"
+        android:id="@+id/imageButton"
+        android:layout_alignBottom="@+id/event"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="22dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="10dp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/surveybutton"
+        android:id="@+id/imageButton3"
+        android:layout_below="@+id/event"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 </RelativeLayout>
