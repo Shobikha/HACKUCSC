@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void StartEvent() {
-        Intent myEvent = new Intent(getApplicationContext(), EventActivity.class);
+        Intent myEvent = new Intent(getApplicationContext(), CategoryActivity.class);
         startActivity(myEvent);
     }
 }
