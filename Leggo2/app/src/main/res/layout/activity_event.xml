@@ -11,10 +11,62 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.alex.leggo.MainActivity">
 
-    <TextView
+    <Button
+        android:text="not Interested"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="YAY WE ARE 7% done!!!"
+        android:id="@+id/no"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
         android:id="@+id/eventList" />
+
+    <Button
+        android:text="Interested"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/yes"
+        android:layout_alignBaseline="@+id/no"
+        android:layout_alignBottom="@+id/no"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/events"
+        android:layout_below="@+id/eventList"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="72dp"
+        android:id="@+id/eventImg" />
+
+    <TextView
+        android:text="Description:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:id="@+id/description"
+        android:layout_below="@+id/no"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="17dp"
+        android:layout_marginStart="17dp" />
+
+    <TextView
+        android:text="Location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/eventImg"
+        android:layout_alignLeft="@+id/description"
+        android:layout_alignStart="@+id/description" />
 
 </RelativeLayout>

@@ -20,8 +20,20 @@ public class MainActivity extends AppCompatActivity {
                 StartEvent();
             }
         });
-    }
 
+
+        final ImageButton b2 = (ImageButton) findViewById(R.id.event);
+        button.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                // Perform action on click
+                StartSurvey();
+            }
+        });
+    }
+    public void StartSurvey() {
+        Intent myEvent = new Intent(getApplicationContext(), StartSurvey().class);
+        startActivity(myEvent);
+    }
     public void StartEvent() {
         Intent myEvent = new Intent(getApplicationContext(), CategoryActivity.class);
         startActivity(myEvent);
