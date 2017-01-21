@@ -3,8 +3,16 @@ package com.example.alex.leggo;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
 
-public class LoginActivity extends AppCompatActivity {
+public class LoginActivity extends AppCompatActivity implements View.OnClickListener{
+
+
+    private Button register;
+    private EditText email;
+    private EditText pass;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -14,6 +22,11 @@ public class LoginActivity extends AppCompatActivity {
 
         Intent myEvent = new Intent(getApplicationContext(), MainActivity.class);
         startActivity(myEvent);
+
+        register = (Button)(findViewById(R.id.signup));
+        email = (EditText)(findViewById(R.id.emailText));
+        pass = (EditText)(findViewById(R.id.passText));
+
 
 //        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
 //        setSupportActionBar(toolbar);
@@ -29,6 +42,10 @@ public class LoginActivity extends AppCompatActivity {
 //                        .setAction("Action", null).show();
 //            }
 //        });
+    }
+    @Override
+    public void OnClick(View view){
+
     }
 
 }
