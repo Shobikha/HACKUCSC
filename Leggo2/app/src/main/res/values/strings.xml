@@ -2,4 +2,10 @@
     <string name="app_name">Leggo</string>
     <string name="title_activity_event">EventActivity</string>
     <string name="title_activity_login">LoginActivity</string>
+    <array name="check_array">
+        <item>@id/program</item>
+        <item>@id/music</item>
+        <item>@id/game</item>
+    </array>
+
 </resources>
