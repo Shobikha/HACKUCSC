@@ -17,6 +17,8 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 public class SignUpActivity extends AppCompatActivity implements View.OnClickListener{
 
@@ -45,8 +47,9 @@ public class SignUpActivity extends AppCompatActivity implements View.OnClickLis
         newEmail = (EditText)findViewById(R.id.emailText);
         newPass = (EditText)findViewById(R.id.passText);
 
-        regUser = (Button)findViewById(R.id.signup);
+        regUser = (Button)findViewById(R.id.signup2);
 
+        regUser.setOnClickListener(this);
 
     }
 
@@ -101,9 +104,20 @@ public class SignUpActivity extends AppCompatActivity implements View.OnClickLis
         firebaseAuth.createUserWithEmailAndPassword(userEmail, userPass).addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
             @Override
             public void onComplete(@NonNull Task<AuthResult> task) {
+                prog.dismiss();
                 if(task.isSuccessful()){
                     //display a successful message
                     Toast.makeText(SignUpActivity.this, "Successfully Registered!", Toast.LENGTH_SHORT).show();
+
+
+                    FirebaseDatabase database = FirebaseDatabase.getInstance();
+                    DatabaseReference myRef = database.getReference();
+
+                    myRef.child("people").child("age").setValue("21");
+
+                    finish();
+                    Intent myEvent = new Intent(getApplicationContext(), MainActivity.class);
+                    startActivity(myEvent);
                 }
                 else{
                     Toast.makeText(SignUpActivity.this, "Registration Failed. Try Again!", Toast.LENGTH_SHORT).show();

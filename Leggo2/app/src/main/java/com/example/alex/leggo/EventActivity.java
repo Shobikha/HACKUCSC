@@ -59,6 +59,10 @@ public class EventActivity extends AppCompatActivity {
     };
     private Integer[] Imgid = {
 
+<<<<<<< HEAD
+=======
+            R.drawable.python, R.drawable.webdesignschools, R.drawable.networksecurity
+>>>>>>> be125d646ac60ae27a66e4ec44ca2222e545c3b5
 
     };
 

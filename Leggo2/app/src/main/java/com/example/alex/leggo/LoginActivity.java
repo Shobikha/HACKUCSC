@@ -34,6 +34,12 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
 
         firebaseAuth = FirebaseAuth.getInstance();
 
+        if(firebaseAuth.getCurrentUser() != null){
+            finish();
+            Intent myEvent = new Intent(getApplicationContext(), MainActivity.class);
+            startActivity(myEvent);
+        }
+
         register = (Button)(findViewById(R.id.signup));
         email = (EditText)(findViewById(R.id.emailText));
         pass = (EditText)(findViewById(R.id.passText));
