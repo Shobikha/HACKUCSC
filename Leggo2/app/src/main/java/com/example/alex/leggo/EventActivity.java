@@ -1,17 +1,17 @@
 package com.example.alex.leggo;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
+import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
 public class EventActivity extends AppCompatActivity {
 
-    Bundle currItem(){
-
-    }
+    int currItem;
 
 
     @Override
@@ -32,56 +32,34 @@ public class EventActivity extends AppCompatActivity {
 //            }
 //        });
 
+        currItem = getIntent().getExtras().getInt("currItem");
+
         setImg();
         setTitle();
         setDistance();
         setDescription();
-
-
+        Button b = (Button) findViewById(R.id.yes);
+        b.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                SharedPreferences.Editor join = getSharedPreferences("save", MODE_PRIVATE).edit();
+                join.putInt("event", 1);
+            }
+        });
     }
+
     public void setTitle() {
 
         TextView t=(TextView)findViewById(R.id.eventList);
 
-        boolean isProgramChecked = getIntent().getExtras().getBoolean("program");
-        list itemList = new list();
-        for (int i = 0; i < itemList.length; i++) {
-
-            if(getIntent().getExtras().getBoolean(itemList.getItem(i))) {
-                t.setText("Web Design for Beginners, \n" +
-                        "coding a website from scratch \n" +
-                        "intro to programming: writing Python");
-            } else {
-                t.setText("");
-            }
-        }
-        final int one = 1;
-        final int two = 2;
-        final int three= 3;
-        final int four = 4;
-
-        int currItem = getIntent().getExtras().getInt("currItem");
-        switch (currItem) {
-            case one:
-                t.setText("Web Design for Beginners");
-                break;
-            case two:
-                t.setText("Coding a website from Scratch!!");
-                break;
-            case three:
-                t.setText("Python bitches!! ");
-                break;
-            default:
-                break;
-        }
     }
 
     private String[] eventsID = {
             "Programming",
-    }
+    };
     private Integer[] Imgid = {
 
-            R.drawable., R.drawable.a_2, R.drawable.a_3, R.drawable.a_4, R.drawable.a_5, R.drawable.a_6, R.drawable.a_7
+            R.drawable.python_640x400, R.drawable.web_design_schools, R.drawable.network_security
 
     };
 
@@ -116,7 +94,7 @@ public class EventActivity extends AppCompatActivity {
 //
 //            }
 //        }
-//        myEvent.putExtra("currItem", 1);
+//        myEvent.putExtra("currItem", currItem + 1);
 
     }
 

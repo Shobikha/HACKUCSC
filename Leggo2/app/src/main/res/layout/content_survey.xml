@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_survey"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.alex.leggo.SurveyActivity"
+    tools:showIn="@layout/activity_survey">
+
+    <TextView
+        android:text="Which are your Favorite drinks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+
+        android:layout_marginTop="25dp"
+        android:id="@+id/title" />
+
+    <RadioButton
+        android:text="Soylent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="14dp"
+        android:layout_marginStart="14dp"
+
+        android:id="@+id/radioButton"
+        android:layout_below="@+id/title"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <RadioButton
+        android:text="Water"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioButton2"
+        android:layout_below="@+id/radioButton"
+        android:layout_alignLeft="@+id/radioButton"
+        android:layout_alignStart="@+id/radioButton" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_alignLeft="@+id/radioButton3"
+        android:layout_alignStart="@+id/radioButton3"
+        android:id="@+id/textView3" />
+
+    <RadioButton
+        android:text="RedBull"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioButton6"
+        android:layout_below="@+id/radioButton2"
+        android:layout_alignLeft="@+id/radioButton2"
+        android:layout_alignStart="@+id/radioButton2" />
+
+    <RadioButton
+        android:text="Other"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioButton5"
+        android:layout_below="@+id/radioButton6"
+        android:layout_alignLeft="@+id/radioButton6"
+        android:layout_alignStart="@+id/radioButton6" />
+
+    <TextView
+        android:text="How was your UCSC hackathon Experience"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/radioButton5"
+        android:layout_alignLeft="@+id/radioButton5"
+        android:layout_alignStart="@+id/radioButton5"
+        android:layout_marginTop="23dp"
+        android:id="@+id/textView6" />
+
+    <RadioButton
+        android:text="0XDEAD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/textView6"
+        android:layout_alignStart="@+id/textView6"
+        android:id="@+id/radioButton11" />
+
+    <RadioButton
+        android:text="okay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioButton12"
+        android:layout_below="@+id/radioButton11"
+        android:layout_alignLeft="@+id/radioButton11"
+        android:layout_alignStart="@+id/radioButton11" />
+
+    <RadioButton
+        android:text="Great"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/radioButton12"
+        android:layout_alignLeft="@+id/radioButton12"
+        android:layout_alignStart="@+id/radioButton12"
+        android:id="@+id/radioButton13" />
+
+    <RadioButton
+        android:text="Best"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioButton14"
+        android:layout_below="@+id/radioButton13"
+        android:layout_alignLeft="@+id/radioButton13"
+        android:layout_alignStart="@+id/radioButton13" />
+
+    <TextView
+        android:text="How can Hack UCSC improve?"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/radioButton14"
+        android:layout_alignLeft="@+id/radioButton14"
+        android:layout_alignStart="@+id/radioButton14"
+        android:layout_marginTop="13dp"
+        android:id="@+id/textView7" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:layout_below="@+id/textView7"
+        android:layout_alignLeft="@+id/textView7"
+        android:layout_alignStart="@+id/textView7"
+        android:layout_marginTop="11dp"
+        android:id="@+id/editText"
+        android:text="Your input goes here" />
+
+    <Button
+        android:text="Submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/textView7"
+        android:layout_toEndOf="@+id/textView7"
+        android:layout_marginLeft="14dp"
+        android:layout_marginStart="14dp"
+        android:id="@+id/submit" />
+
+</RelativeLayout>

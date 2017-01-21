@@ -8,5 +8,6 @@
         <item>@id/game</item>
         <item>@id/all</item>
     </array>
+    <string name="title_activity_survey">SurveyActivity</string>
 
 </resources>
