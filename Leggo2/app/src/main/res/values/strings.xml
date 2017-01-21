@@ -6,6 +6,7 @@
         <item>@id/program</item>
         <item>@id/music</item>
         <item>@id/game</item>
+        <item>@id/all</item>
     </array>
 
 </resources>

@@ -30,24 +30,32 @@ public class CategoryActivity extends Activity {
     public void startEvent() {
 
         final CheckBox checkProgram = (CheckBox) findViewById(R.id.program);
-//        int numOfItems = 4;
-//        CheckBox[] chkItem = new CheckBox[numOfItems];
-//        String[] itemList = {"program", "music", "list"};
-//
-//        for(int i = 0; i < chkItem.length; i++) {
-//            chkItem[i] = (CheckBox) getResources().getIntArray(R.array. );
-//        }
+        list items = new list();
+        int numOfItems = items.length;
+        CheckBox[] chkItem = new CheckBox[numOfItems];
+
+        chkItem[0] = (CheckBox) findViewById(R.id.program);
+        chkItem[1] = (CheckBox) findViewById(R.id.music);
+        chkItem[2] = (CheckBox) findViewById(R.id.game);
+        chkItem[3] = (CheckBox) findViewById(R.id.all);
+        chkItem[4] = (CheckBox) findViewById(R.id.sports);
+        chkItem[5] = (CheckBox) findViewById(R.id.fieldTrips);
+        chkItem[6] = (CheckBox) findViewById(R.id.networking);
+        chkItem[7] = (CheckBox) findViewById(R.id.photography);
+
 
         Intent myEvent = new Intent(getApplicationContext(), EventActivity.class);
-        if(checkProgram.isChecked()) {
-            myEvent.putExtra("program", true);
-        }
-        else {
-            myEvent.putExtra("program", false);
-        }
 
-        myEvent.putExtra("music", true);
-        myEvent.putExtra("game", true);
+        for(int i = 0; i < chkItem.length; i++) {
+            if(chkItem[i].isChecked()){
+
+            myEvent.putExtra(items.getItem(i), true);
+            } else {
+                myEvent.putExtra(items.getItem(i), false);
+
+            }
+        }
+        myEvent.putExtra("currItem", 1);
 
         startActivity(myEvent);
 
