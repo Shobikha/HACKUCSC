@@ -35,7 +35,7 @@ public class Chat_Room extends AppCompatActivity {
     private ArrayAdapter<String> arrayAdapter;
     private ArrayList<String> list_of_rooms = new ArrayList<>();
     private String name;
-    private DatabaseReference root = FirebaseDatabase.getInstance().getReference().getRoot();
+    private DatabaseReference root = FirebaseDatabase.getInstance().getReferenceFromUrl(Data.URL);
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -5,5 +5,5 @@ package com.example.alex.leggo;
  */
 
 public class Data {
-    public static final String URL = "https://chatting-2c091.firebaseio.com/";
+    public static final String URL = "https://chatting-2c091.firebaseio.com/chat";
 }

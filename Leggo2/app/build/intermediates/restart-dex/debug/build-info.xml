@@ -5,39 +5,40 @@
     density="420dpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="347082058093928"
+    timestamp="359766463826763"
     token="8868035508432785337"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="325" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="38" />
     <task
         name="verifier"
-        duration="0" />
+        duration="2" />
+
+    <artifact
+        location="C:\Users\Harsh\Desktop\APP\HACKUCSC\Leggo2\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5\classes.dex"
+        type="DEX" />
 
     <build
-        timestamp="345583935874749"
-        verifier="MANIFEST_FILE_CHANGE" >
+        timestamp="357745661906332"
+        verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\Users\Harsh\Desktop\APP\HACKUCSC\Leggo2\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
     </build>
     <build
-        timestamp="347034561606212"
+        timestamp="359766463826763"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\Harsh\Desktop\APP\HACKUCSC\Leggo2\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5\classes.dex"
             type="DEX" />
     </build>
-    <build
-        timestamp="347082058093928"
-        verifier="COLD_SWAP_REQUESTED" />
 
 </instant-run>
