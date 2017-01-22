@@ -11,28 +11,11 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.alex.leggo.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="YAY WE ARE 7% done!!!" />
-
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/events"
-        android:layout_marginLeft="41dp"
-        android:layout_marginStart="41dp"
-        android:layout_marginTop="100dp"
-        android:id="@+id/event"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:onClick="StartEvent" />
-
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/chat"
-        android:id="@+id/imageButton"
+        android:id="@+id/chat"
         android:layout_alignBottom="@+id/event"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
@@ -40,12 +23,45 @@
         android:layout_marginEnd="22dp"
         android:layout_marginBottom="10dp" />
 
+    <AutoCompleteTextView
+        android:text="Item 1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="67dp"
+        android:id="@+id/autoCompleteTextView"
+        android:layout_below="@+id/chat"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
+
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/surveybutton"
+<<<<<<< HEAD
         android:id="@+id/surveyBut"
         android:layout_below="@+id/event"
+=======
+        android:id="@+id/survey"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="YAY WE ARE 7% done!!!"
+        android:layout_below="@+id/listView2"
+>>>>>>> 5ffeb5d708cc7924515d5192f8c5f8a127335896
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
+
 </RelativeLayout>

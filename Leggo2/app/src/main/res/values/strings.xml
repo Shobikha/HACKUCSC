@@ -9,5 +9,6 @@
         <item>@id/all</item>
     </array>
     <string name="title_activity_survey">SurveyActivity</string>
+    <string name="title_activity_chat_room">ChatRoom</string>
 
 </resources>

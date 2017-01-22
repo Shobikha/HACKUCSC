@@ -24,8 +24,6 @@ public class SurveyActivity extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
-
-
     }
 
 }
