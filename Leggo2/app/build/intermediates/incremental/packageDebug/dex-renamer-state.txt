@@ -1,0 +1,7 @@
+#Sat Jan 21 20:54:44 PST 2017
+base.0=C\:\\Users\\Harsh\\Desktop\\APP\\HACKUCSC\\Leggo2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_7c56bb91481185edc50fd743d440800836744efa
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\Users\\Harsh\\Desktop\\APP\\HACKUCSC\\Leggo2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_61d6f3d28ef977650766c1a3907999c3512b3ca3\\classes.dex
+base.1=C\:\\Users\\Harsh\\Desktop\\APP\\HACKUCSC\\Leggo2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_61d6f3d28ef977650766c1a3907999c3512b3ca3
+file.0=C\:\\Users\\Harsh\\Desktop\\APP\\HACKUCSC\\Leggo2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_7c56bb91481185edc50fd743d440800836744efa\\classes.dex

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <CheckBox
+        android:text="All"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/all"
+        android:layout_marginLeft="27dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="78dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <CheckBox
+        android:text="Game"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/all"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="48dp"
+        android:layout_marginEnd="48dp"
+        android:id="@+id/game" />
+
+    <CheckBox
+        android:text="Music"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/game"
+        android:layout_toLeftOf="@+id/game"
+        android:layout_toStartOf="@+id/game"
+        android:layout_marginRight="56dp"
+        android:layout_marginEnd="56dp"
+        android:id="@+id/music" />
+
+    <CheckBox
+        android:text="Program"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/music"
+        android:layout_alignRight="@+id/game"
+        android:layout_alignEnd="@+id/game"
+        android:layout_marginRight="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginTop="31dp"
+        android:id="@+id/program" />
+
+    <CheckBox
+        android:text="Sports"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/program"
+        android:layout_alignLeft="@+id/all"
+        android:layout_alignStart="@+id/all"
+        android:id="@+id/sports" />
+
+    <CheckBox
+        android:text="Field Trips"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sports"
+        android:layout_toLeftOf="@+id/game"
+        android:layout_toStartOf="@+id/game"
+        android:layout_marginRight="11dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginTop="22dp"
+        android:id="@+id/fieldTrips" />
+
+    <CheckBox
+        android:text="Networking"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fieldTrips"
+        android:layout_alignRight="@+id/game"
+        android:layout_alignEnd="@+id/game"
+        android:layout_marginTop="22dp"
+        android:id="@+id/networking" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="22dp"
+        android:id="@+id/complete"
+        android:text="Complete" />
+
+    <CheckBox
+        android:text="Photography"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fieldTrips"
+        android:layout_alignLeft="@+id/sports"
+        android:layout_alignStart="@+id/sports"
+        android:id="@+id/photography" />
+
+</RelativeLayout>
