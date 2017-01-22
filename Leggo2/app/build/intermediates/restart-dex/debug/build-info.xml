@@ -5,64 +5,29 @@
     density="420dpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="342957558276575"
-    token="8868035508432785337"
-    verifier="COLD_SWAP_REQUESTED" >
+    timestamp="345605468356320"
+    token="8868035508432785337" >
 
     <task
         name="javac"
-        duration="461" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="88" />
+        duration="0" />
     <task
         name="verifier"
-        duration="20" />
-
-    <artifact
-        location="C:\Users\Harsh\Desktop\APP\HACKUCSC\Leggo2\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
-        type="RESOURCES" />
-    <artifact
-        location="C:\Users\Harsh\Desktop\APP\HACKUCSC\Leggo2\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_4\classes.dex"
-        type="DEX" />
-    <artifact
-        location="C:\Users\Harsh\Desktop\APP\HACKUCSC\Leggo2\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
-        type="DEX" />
-    <artifact
-        location="C:\Users\Harsh\Desktop\APP\HACKUCSC\Leggo2\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_2\classes.dex"
-        type="DEX" />
-    <artifact
-        location="C:\Users\Harsh\Desktop\APP\HACKUCSC\Leggo2\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5\classes.dex"
-        type="DEX" />
+        duration="0" />
 
     <build
-        timestamp="342600828204827"
-        verifier="FULL_BUILD_REQUESTED" >
+        timestamp="345583935874749"
+        verifier="MANIFEST_FILE_CHANGE" >
         <artifact
             location="C:\Users\Harsh\Desktop\APP\HACKUCSC\Leggo2\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
     </build>
-    <build
-        timestamp="342957558276575"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="C:\Users\Harsh\Desktop\APP\HACKUCSC\Leggo2\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
-            type="RESOURCES" />
-        <artifact
-            location="C:\Users\Harsh\Desktop\APP\HACKUCSC\Leggo2\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_4\classes.dex"
-            type="DEX" />
-        <artifact
-            location="C:\Users\Harsh\Desktop\APP\HACKUCSC\Leggo2\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
-            type="DEX" />
-        <artifact
-            location="C:\Users\Harsh\Desktop\APP\HACKUCSC\Leggo2\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_2\classes.dex"
-            type="DEX" />
-        <artifact
-            location="C:\Users\Harsh\Desktop\APP\HACKUCSC\Leggo2\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5\classes.dex"
-            type="DEX" />
-    </build>
+    <build timestamp="345605468356320" />
 
 </instant-run>

@@ -1,4 +1,4 @@
-#Sat Jan 21 20:54:44 PST 2017
+#Sat Jan 21 21:43:39 PST 2017
 base.0=C\:\\Users\\Harsh\\Desktop\\APP\\HACKUCSC\\Leggo2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_7c56bb91481185edc50fd743d440800836744efa
 renamed.1=classes2.dex
 renamed.0=classes.dex

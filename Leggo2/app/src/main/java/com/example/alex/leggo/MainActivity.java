@@ -33,6 +33,20 @@ public class MainActivity extends AppCompatActivity {
                 StartSurvey();
             }
         });
+
+        final ImageButton b3 = (ImageButton) findViewById(R.id.chat);
+        b3.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                // Perform action on click+
+                StartChat();
+            }
+        });
+    }
+
+    public void StartChat() {
+        finish();
+        Intent myEvent = new Intent(getApplicationContext(), ChatActivity.class);
+        startActivity(myEvent);
     }
     public void StartSurvey() {
         finish();

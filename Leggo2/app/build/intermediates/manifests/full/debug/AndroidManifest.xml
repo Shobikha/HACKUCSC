@@ -39,6 +39,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.example.alex.leggo.Chat_Room" >
+            <action android:name="android.intent.action.event" />
+
+            <category android:name="android.intent.category.DEFAULT" />
+        </activity>
+        <activity android:name="com.example.alex.leggo.ChatActivity" >
+            <action android:name="android.intent.action.event" />
+
+            <category android:name="android.intent.category.DEFAULT" />
+        </activity>
         <activity android:name="com.example.alex.leggo.CategoryActivity" >
             <action android:name="android.intent.action.event" />
 
