@@ -8,12 +8,15 @@ import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
 
+
+    private ImageButton b2;
+    private ImageButton button;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        final ImageButton button = (ImageButton) findViewById(R.id.event);
+        button = (ImageButton) findViewById(R.id.event);
         button.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // Perform action on click
@@ -22,19 +25,21 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
-        final ImageButton b2 = (ImageButton) findViewById(R.id.event);
-        button.setOnClickListener(new View.OnClickListener() {
+        b2 = (ImageButton) findViewById(R.id.surveyBut);
+        b2.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                // Perform action on click
+                // Perform action on click+
                 StartSurvey();
             }
         });
     }
     public void StartSurvey() {
-        Intent myEvent = new Intent(getApplicationContext(), StartSurvey().class);
+        finish();
+        Intent myEvent = new Intent(getApplicationContext(), SurveyActivity.class);
         startActivity(myEvent);
     }
     public void StartEvent() {
+        finish();
         Intent myEvent = new Intent(getApplicationContext(), CategoryActivity.class);
         startActivity(myEvent);
     }

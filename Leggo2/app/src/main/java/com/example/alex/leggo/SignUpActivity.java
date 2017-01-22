@@ -62,8 +62,8 @@ public class SignUpActivity extends AppCompatActivity implements View.OnClickLis
     }
 
     private void enrollUser(){
-        String nameFirst = firstName.getText().toString().trim();
-        String nameLast = lastName.getText().toString().trim();
+        final String nameFirst = firstName.getText().toString().trim();
+        final String nameLast = lastName.getText().toString().trim();
         String add = userAdd.getText().toString().trim();
         String Age = userAge.getText().toString().trim();
         String userEmail = newEmail.getText().toString().trim();
@@ -109,12 +109,9 @@ public class SignUpActivity extends AppCompatActivity implements View.OnClickLis
                     //display a successful message
                     Toast.makeText(SignUpActivity.this, "Successfully Registered!", Toast.LENGTH_SHORT).show();
 
-
-                    FirebaseDatabase database = FirebaseDatabase.getInstance();
-                    DatabaseReference myRef = database.getReference();
-
-                    myRef.child("people").child("age").setValue("21");
-
+                    User x = new User();
+                    System.out.println("Under USer\n");
+                    x.setName(nameFirst, nameLast);
                     finish();
                     Intent myEvent = new Intent(getApplicationContext(), MainActivity.class);
                     startActivity(myEvent);
