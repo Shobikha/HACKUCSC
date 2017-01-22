@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bottom_text_blur_height">20dp</dimen>
+    <dimen name="in_app_body_text_size">18sp</dimen>
+    <dimen name="in_app_bottom_bar_padding">10dp</dimen>
+    <dimen name="in_app_button_margin">10dp</dimen>
+    <dimen name="in_app_button_text_size">20sp</dimen>
+    <dimen name="in_app_image_height">180dp</dimen>
+    <dimen name="in_app_layout_width">320dp</dimen>
+    <dimen name="in_app_text_padding">10dp</dimen>
+    <dimen name="in_app_title_text_size">24sp</dimen>
+    <string name="_inappmessages"> InApp Messages</string>
+    <string name="_of_"> of </string>
+    <string name="showing_">Showing </string>
+    <string name="tab_new">NEW</string>
+    <string name="tab_previous">PREVIOUS</string>
+</resources>
