@@ -1,44 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="x86"
+    abi="armeabi-v7a,armeabi"
     api-level="23"
-    density="420dpi"
+    density="xxhdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="359766463826763"
+    timestamp="364293460578769"
     token="8868035508432785337"
-    verifier="COLD_SWAP_REQUESTED" >
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="325" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="38" />
+        duration="96" />
     <task
         name="verifier"
-        duration="2" />
+        duration="34" />
 
     <artifact
-        location="C:\Users\Harsh\Desktop\APP\HACKUCSC\Leggo2\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5\classes.dex"
-        type="DEX" />
+        location="C:\Users\Harsh\Desktop\APP\HACKUCSC\Leggo2\app\build\outputs\apk\app-debug.apk"
+        type="MAIN" />
 
     <build
-        timestamp="357745661906332"
+        timestamp="364293460578769"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\Users\Harsh\Desktop\APP\HACKUCSC\Leggo2\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
-    </build>
-    <build
-        timestamp="359766463826763"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="C:\Users\Harsh\Desktop\APP\HACKUCSC\Leggo2\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5\classes.dex"
-            type="DEX" />
     </build>
 
 </instant-run>

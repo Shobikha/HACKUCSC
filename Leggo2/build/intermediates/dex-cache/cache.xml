@@ -16,7 +16,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="65b212dfa219ae2967b37d3890ddb5372274f9e5">
+        sha1="d1134cec4065f7ffb2e5e4ad8bcb6a83f64748cb">
         <dex dex="C:\Users\Harsh\Desktop\APP\HACKUCSC\Leggo2\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_7c56bb91481185edc50fd743d440800836744efa\classes.dex" />
     </item>
     <item
@@ -214,7 +214,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="a4dd32588eec56bd0a191e246219531e95037cf2">
+        sha1="e1543f62fdc454871ab01c0a3632c8bd00e9582e">
         <dex dex="C:\Users\Harsh\Desktop\APP\HACKUCSC\Leggo2\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_61d6f3d28ef977650766c1a3907999c3512b3ca3\classes.dex" />
     </item>
     <item

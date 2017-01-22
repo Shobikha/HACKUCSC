@@ -34,14 +34,14 @@ public class CategoryActivity extends Activity {
         int numOfItems = items.length();
         CheckBox[] chkItem = new CheckBox[numOfItems];
 
-        chkItem[0] = (CheckBox) findViewById(R.id.program);
-        chkItem[1] = (CheckBox) findViewById(R.id.music);
-        chkItem[2] = (CheckBox) findViewById(R.id.game);
-        chkItem[3] = (CheckBox) findViewById(R.id.all);
-        chkItem[4] = (CheckBox) findViewById(R.id.sports);
-        chkItem[5] = (CheckBox) findViewById(R.id.fieldTrips);
-        chkItem[6] = (CheckBox) findViewById(R.id.networking);
-        chkItem[7] = (CheckBox) findViewById(R.id.photography);
+        chkItem[0] = (CheckBox) findViewById(R.id.fieldTrips);
+        chkItem[1] = (CheckBox) findViewById(R.id.game);
+        chkItem[2] = (CheckBox) findViewById(R.id.music);
+        chkItem[3] = (CheckBox) findViewById(R.id.networking);
+        chkItem[4] = (CheckBox) findViewById(R.id.photography);
+        chkItem[5] = (CheckBox) findViewById(R.id.program);
+        chkItem[6] = (CheckBox) findViewById(R.id.sports);
+        chkItem[7] = (CheckBox) findViewById(R.id.all);
 
 
         Intent myEvent = new Intent(getApplicationContext(), EventActivity.class);

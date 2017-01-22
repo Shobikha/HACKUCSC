@@ -9,49 +9,80 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.alex.leggo.MainActivity">
+    android:background="@color/colorPrimaryDark"
+    tools:context="com.example.alex.leggo.MainActivity"
+    tools:background="@android:color/transparent">
+
 
     <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/chat"
+        android:layout_width="122dp"
+        android:layout_height="122dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/chaticonblue"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
         android:id="@+id/chat"
-        android:layout_alignBottom="@+id/event"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginRight="22dp"
-        android:layout_marginEnd="22dp"
-        android:layout_marginBottom="10dp" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="YAY WE ARE 7% done!!!"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:id="@+id/textView5" />
-
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/surveybutton"
-        android:id="@+id/survey"
-        android:layout_marginLeft="36dp"
-        android:layout_marginStart="36dp"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
     <ImageButton
+        android:layout_width="122dp"
+        android:layout_height="122dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/eventiconblue"
+        android:layout_marginTop="30dp"
+        android:id="@+id/event"
+        android:layout_below="@+id/chat"
+        android:layout_alignLeft="@+id/chat"
+        android:layout_alignStart="@+id/chat" />
+
+    <ImageButton
+        android:layout_width="135dp"
+        android:layout_height="122dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/surveyiconblue"
+        android:id="@+id/survey"
+        android:layout_marginTop="26dp"
+        android:layout_below="@+id/event"
+        android:layout_alignLeft="@+id/event"
+        android:layout_alignStart="@+id/event" />
+
+    <TextView
+        android:text="CHAT"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/events"
-        android:id="@+id/event"
-        android:layout_marginBottom="59dp"
-        android:layout_alignParentBottom="true"
-        android:layout_alignLeft="@+id/survey"
-        android:layout_alignStart="@+id/survey"
-        android:layout_marginLeft="10dp"
-        android:layout_marginStart="10dp" />
+        android:layout_marginLeft="48dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="36dp"
+        android:id="@+id/textView8"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:layout_alignTop="@+id/chat"
+        android:layout_toRightOf="@+id/survey"
+        android:layout_toEndOf="@+id/survey" />
 
+    <TextView
+        android:text="EVENTS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="39dp"
+        android:id="@+id/textView9"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:layout_alignTop="@+id/event"
+        android:layout_toRightOf="@+id/survey"
+        android:layout_toEndOf="@+id/survey"
+        android:layout_marginLeft="31dp"
+        android:layout_marginStart="31dp" />
+
+    <TextView
+        android:text="SURVEY"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView10"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:layout_marginBottom="36dp"
+        android:layout_alignBottom="@+id/survey"
+        android:layout_alignLeft="@+id/textView9"
+        android:layout_alignStart="@+id/textView9" />
 </RelativeLayout>

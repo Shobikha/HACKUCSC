@@ -5,26 +5,78 @@ package com.example.alex.leggo;
  */
 
 public class list {
-    String[] itemList = {"program", "music", "game", "all", "sports", "fieldTrips", "networking", "photography"};
-    String[] programming = {"Web Development", "Python"};
-    String[] networking = {"Network Security"};
+
+    class Node{
+        String name;
+        String date;
+        String desc;
+        Node next;
+
+        public Node(){
+            //default constructor
+        }
+    }
+
+
+    String[] itemList = {"fieldTrips", "game", "music", "networking", "photography", "program", "sports", "all"};
     private int length;
-    private int curr;
-    private int[] index = {2, 0, 0, 0, 0, 0, 1, 0};
+    private Node back;
+    private Node head;
+    private Node curr;
 
     public list () {
-       length = itemList.length;
-        curr = 0;
+        length = 0;
+        head = null;
+        back = null;
+        curr = null;
+    }
+
+    public Node getHead(){
+        return head;
+    }
+
+    public Node getCurr(){
+        return curr;
+    }
+
+    public Node getBack(){
+        return back;
+    }
+
+    public void add(String name, String date, String desc){
+        Node N = new Node();
+
+        if(head == null){
+            N.name = name;
+            N.date = date;
+            N.desc = desc;
+            N.next = null;
+            head = N;
+            back = N;
+            curr = N;
+            length++;
+        }
+        else{
+            N.name = name;
+            N.date = date;
+            N.desc = desc;
+            N.next = null;
+            back.next = N;
+            back = N;
+            curr = N;
+            length++;
+        }
+    }
+
+    public void delete(Node N){
+        
     }
     public boolean endOfList(list l) {
-        return l.getIndex() == curr;
 
 
+        return true;
     }
 
-    public int getIndex() {
-        return index.length;
-    }
     public String getItem(int i) {
         return itemList[i];
     }

@@ -99,8 +99,8 @@ public class ChatActivity extends AppCompatActivity {
 
         }*/
 
-        chat_user_name = dataSnapshot.child("name").toString();
-        chat_msg = dataSnapshot.child("msg").toString();
+        chat_user_name = dataSnapshot.child("name").getValue().toString();
+        chat_msg = dataSnapshot.child("msg").getValue().toString();
 
         recieve_msg.append(chat_user_name + ": " + chat_msg + "\n ");
 

@@ -5,11 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context="com.example.alex.leggo.LoginActivity">
+    tools:context="com.example.alex.leggo.LoginActivity"
+    android:background="@color/colorPrimaryDark">
 
-
-
-    <include layout="@layout/content_login" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -19,22 +17,25 @@
         android:orientation="vertical">
 
         <EditText
-            android:hint = "Enter your Email!"
+            android:hint = " Enter your Email!"
+            android:textColorHint="@color/common_google_signin_btn_text_dark_default"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textEmailAddress"
             android:id="@+id/emailText"
-            android:layout_marginTop="100dp"
+            android:layout_marginTop="160dp"
             android:padding="10dp" />
 
         <EditText
-            android:hint = "Enter your Password!"
+            android:hint = " Enter your Password!"
+            android:textColorHint="@color/common_google_signin_btn_text_dark_default"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textPassword"
             android:ems="10"
             android:id="@+id/passText"
-            android:layout_marginTop="10dp" />
+            android:layout_marginTop="10dp"
+            style="@android:style/Widget.Holo.EditText" />
 
         <Button
             android:text="Log In!"
@@ -43,20 +44,34 @@
             android:id="@+id/signin"
             android:layout_marginTop="50dp"
             android:elevation="1dp"
-            android:padding="10dp" />
+            android:padding="10dp"
+            android:background="@color/colorAccent" />
+
+        <include layout="@layout/content_login"
+            android:layout_width="match_parent" />
 
         <Button
             android:text="SIGN UP!"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/signup"
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="100dp"
             android:elevation="1dp"
-            android:padding="10dp" />
+            android:padding="10dp"
+            android:background="@color/colorAccent" />
 
     </LinearLayout>
 
-
+    <ImageButton
+        android:layout_width="296dp"
+        android:layout_height="119dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/welcome"
+        android:id="@+id/imageButton"
+        android:adjustViewBounds="false" />
 
 
 </android.support.design.widget.CoordinatorLayout>

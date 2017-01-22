@@ -18,25 +18,12 @@ public class EventActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_event);
-        //Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        //setSupportActionBar(toolbar);
-
-//        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-//        fab.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-//                        .setAction("Action", null).show();
-//                boolean defaultValue = false;
-////                boolean yourValue = getIntent().getBooleanExtra("program", defaultValue);
-//            }
-//        });
 
         currItem = getIntent().getExtras().getInt("currItem");
 
         setImg();
         setTitle();
-        setDistance();
+      //  setDistance();
         setDescription();
         Button b = (Button) findViewById(R.id.yes);
         b.setOnClickListener(new View.OnClickListener() {
