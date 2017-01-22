@@ -2039,6 +2039,7 @@
                     "startLine": 285,
                     "startColumn": 4,
                     "startOffset": 20752,
+<<<<<<< HEAD
                     "endColumn": 121,
                     "endOffset": 20869
                 },
@@ -2064,6 +2065,14 @@
                 },
                 "from": {
                     "file": "C:\\Users\\Harsh\\Desktop\\APP\\HACKUCSC\\Leggo2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-v21\\values-v21.xml",
+=======
+                    "endLine": 287,
+                    "endColumn": 12,
+                    "endOffset": 20922
+                },
+                "from": {
+                    "file": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v21/values-v21.xml",
+>>>>>>> 0a35ba5bf5a68a87ac98546a0726c03fe9567a2f
                     "position": {
                         "startLine": 279,
                         "startColumn": 4,
@@ -2076,6 +2085,7 @@
             },
             {
                 "to": {
+<<<<<<< HEAD
                     "startLine": 289,
                     "startColumn": 4,
                     "startOffset": 21049,
@@ -2085,6 +2095,17 @@
                 },
                 "from": {
                     "file": "C:\\Users\\Harsh\\Desktop\\APP\\HACKUCSC\\Leggo2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-v21\\values-v21.xml",
+=======
+                    "startLine": 288,
+                    "startColumn": 4,
+                    "startOffset": 20927,
+                    "endLine": 292,
+                    "endColumn": 12,
+                    "endOffset": 21263
+                },
+                "from": {
+                    "file": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v21/values-v21.xml",
+>>>>>>> 0a35ba5bf5a68a87ac98546a0726c03fe9567a2f
                     "position": {
                         "startLine": 282,
                         "startColumn": 4,
@@ -2097,6 +2118,7 @@
             },
             {
                 "to": {
+<<<<<<< HEAD
                     "startLine": 294,
                     "startColumn": 4,
                     "startOffset": 21390,
@@ -2106,6 +2128,17 @@
                 },
                 "from": {
                     "file": "C:\\Users\\Harsh\\Desktop\\APP\\HACKUCSC\\Leggo2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.0\\res\\values-v21\\values-v21.xml",
+=======
+                    "startLine": 293,
+                    "startColumn": 4,
+                    "startOffset": 21268,
+                    "endLine": 295,
+                    "endColumn": 12,
+                    "endOffset": 21461
+                },
+                "from": {
+                    "file": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/res/values-v21/values-v21.xml",
+>>>>>>> 0a35ba5bf5a68a87ac98546a0726c03fe9567a2f
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,

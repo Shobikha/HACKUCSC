@@ -1,7 +1,12 @@
+<<<<<<< HEAD
 #Sun Jan 22 04:36:07 PST 2017
 base.0=C\:\\Users\\Harsh\\Desktop\\APP\\HACKUCSC\\Leggo2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_7c56bb91481185edc50fd743d440800836744efa
+=======
+#Sun Jan 22 05:05:06 PST 2017
+base.0=/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_302a4ba9cf970ddc809fc0bc05fc4b2caeb083dc
+>>>>>>> 0a35ba5bf5a68a87ac98546a0726c03fe9567a2f
 renamed.1=classes2.dex
 renamed.0=classes.dex
-file.1=C\:\\Users\\Harsh\\Desktop\\APP\\HACKUCSC\\Leggo2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_61d6f3d28ef977650766c1a3907999c3512b3ca3\\classes.dex
-base.1=C\:\\Users\\Harsh\\Desktop\\APP\\HACKUCSC\\Leggo2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_61d6f3d28ef977650766c1a3907999c3512b3ca3
-file.0=C\:\\Users\\Harsh\\Desktop\\APP\\HACKUCSC\\Leggo2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_7c56bb91481185edc50fd743d440800836744efa\\classes.dex
+file.1=/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_b3f072f909cf09e74ffc9ae81a4856ae88853b08/classes.dex
+base.1=/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_b3f072f909cf09e74ffc9ae81a4856ae88853b08
+file.0=/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_302a4ba9cf970ddc809fc0bc05fc4b2caeb083dc/classes.dex

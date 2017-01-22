@@ -54,7 +54,9 @@ public class list {
     public int index() {
         return index;
     }
-
+    public int arraySize(){
+        return itemList.length;
+    }
     public Node getHead(){
         return front;
     }

@@ -4,18 +4,24 @@
         "source": "C:\\Users\\Harsh\\Desktop\\APP\\HACKUCSC\\Leggo2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_action_mode_close_item_material.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "C:\\Users\\Harsh\\Desktop\\APP\\HACKUCSC\\Leggo2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
         "source": "C:\\Users\\Harsh\\Desktop\\APP\\HACKUCSC\\Leggo2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_action_bar_title_item.xml"
     },
     {
         "merged": "C:\\Users\\Harsh\\Desktop\\APP\\HACKUCSC\\Leggo2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
         "source": "C:\\Users\\Harsh\\Desktop\\APP\\HACKUCSC\\Leggo2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_search_view.xml"
+=======
+        "merged": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml",
+        "source": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_screen_toolbar.xml"
+>>>>>>> 0a35ba5bf5a68a87ac98546a0726c03fe9567a2f
     },
     {
         "merged": "C:\\Users\\Harsh\\Desktop\\APP\\HACKUCSC\\Leggo2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_icon_group.xml",
         "source": "C:\\Users\\Harsh\\Desktop\\APP\\HACKUCSC\\Leggo2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\notification_template_icon_group.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "C:\\Users\\Harsh\\Desktop\\APP\\HACKUCSC\\Leggo2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
         "source": "C:\\Users\\Harsh\\Desktop\\APP\\HACKUCSC\\Leggo2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_action_bar_up_container.xml"
     },
@@ -42,14 +48,59 @@
     {
         "merged": "C:\\Users\\Harsh\\Desktop\\APP\\HACKUCSC\\Leggo2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\in_app_detail_layout.xml",
         "source": "C:\\Users\\Harsh\\Desktop\\APP\\HACKUCSC\\Leggo2\\app\\build\\intermediates\\exploded-aar\\com.pyze\\PyzeLibrary\\2.1.0\\res\\layout\\in_app_detail_layout.xml"
+=======
+        "merged": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/res/merged/debug/layout/activity_category.xml",
+        "source": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/src/main/res/layout/activity_category.xml"
+    },
+    {
+        "merged": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/res/merged/debug/layout/bottom_bar_layout.xml",
+        "source": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/exploded-aar/com.pyze/PyzeLibrary/2.9.1/res/layout/bottom_bar_layout.xml"
+    },
+    {
+        "merged": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/res/merged/debug/layout/notification_template_custom_big.xml",
+        "source": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/res/merged/debug/layout/mr_media_route_controller_material_dialog_b.xml",
+        "source": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/layout/mr_media_route_controller_material_dialog_b.xml"
+    },
+    {
+        "merged": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/res/merged/debug/layout/design_navigation_item.xml",
+        "source": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/res/layout/design_navigation_item.xml"
+    },
+    {
+        "merged": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_title_material.xml",
+        "source": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_alert_dialog_title_material.xml"
+    },
+    {
+        "merged": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
+        "source": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/res/merged/debug/layout/place_autocomplete_item_prediction.xml",
+        "source": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.4.0/res/layout/place_autocomplete_item_prediction.xml"
+>>>>>>> 0a35ba5bf5a68a87ac98546a0726c03fe9567a2f
     },
     {
         "merged": "C:\\Users\\Harsh\\Desktop\\APP\\HACKUCSC\\Leggo2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
         "source": "C:\\Users\\Harsh\\Desktop\\APP\\HACKUCSC\\Leggo2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_alert_dialog_material.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "C:\\Users\\Harsh\\Desktop\\APP\\HACKUCSC\\Leggo2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_title_material.xml",
         "source": "C:\\Users\\Harsh\\Desktop\\APP\\HACKUCSC\\Leggo2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_alert_dialog_title_material.xml"
+=======
+        "merged": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/res/merged/debug/layout/content_event.xml",
+        "source": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/src/main/res/layout/content_event.xml"
+    },
+    {
+        "merged": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/res/merged/debug/layout/notification_template_icon_group.xml",
+        "source": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/res/merged/debug/layout/design_navigation_item_header.xml",
+        "source": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/res/layout/design_navigation_item_header.xml"
+>>>>>>> 0a35ba5bf5a68a87ac98546a0726c03fe9567a2f
     },
     {
         "merged": "C:\\Users\\Harsh\\Desktop\\APP\\HACKUCSC\\Leggo2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
@@ -60,6 +111,7 @@
         "source": "C:\\Users\\Harsh\\Desktop\\APP\\HACKUCSC\\Leggo2\\app\\build\\intermediates\\exploded-aar\\com.pyze\\PyzeLibrary\\2.1.0\\res\\layout\\new_msg_list_layout.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "C:\\Users\\Harsh\\Desktop\\APP\\HACKUCSC\\Leggo2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_survey.xml",
         "source": "C:\\Users\\Harsh\\Desktop\\APP\\HACKUCSC\\Leggo2\\app\\src\\main\\res\\layout\\activity_survey.xml"
     },
@@ -70,22 +122,48 @@
     {
         "merged": "C:\\Users\\Harsh\\Desktop\\APP\\HACKUCSC\\Leggo2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
         "source": "C:\\Users\\Harsh\\Desktop\\APP\\HACKUCSC\\Leggo2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\notification_template_part_time.xml"
+=======
+        "merged": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/res/merged/debug/layout/list_item_layout.xml",
+        "source": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/exploded-aar/com.pyze/PyzeLibrary/2.1.0/res/layout/list_item_layout.xml"
+    },
+    {
+        "merged": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/res/merged/debug/layout/design_bottom_sheet_dialog.xml",
+        "source": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/res/layout/design_bottom_sheet_dialog.xml"
+    },
+    {
+        "merged": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/res/merged/debug/layout/design_navigation_item_separator.xml",
+        "source": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/res/layout/design_navigation_item_separator.xml"
+    },
+    {
+        "merged": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/res/merged/debug/layout/select_dialog_item_material.xml",
+        "source": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/select_dialog_item_material.xml"
+>>>>>>> 0a35ba5bf5a68a87ac98546a0726c03fe9567a2f
     },
     {
         "merged": "C:\\Users\\Harsh\\Desktop\\APP\\HACKUCSC\\Leggo2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
         "source": "C:\\Users\\Harsh\\Desktop\\APP\\HACKUCSC\\Leggo2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_screen_toolbar.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "C:\\Users\\Harsh\\Desktop\\APP\\HACKUCSC\\Leggo2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action_tombstone.xml",
         "source": "C:\\Users\\Harsh\\Desktop\\APP\\HACKUCSC\\Leggo2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\notification_action_tombstone.xml"
+=======
+        "merged": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/res/merged/debug/layout/content_survey.xml",
+        "source": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/src/main/res/layout/content_survey.xml"
+>>>>>>> 0a35ba5bf5a68a87ac98546a0726c03fe9567a2f
     },
     {
         "merged": "C:\\Users\\Harsh\\Desktop\\APP\\HACKUCSC\\Leggo2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
         "source": "C:\\Users\\Harsh\\Desktop\\APP\\HACKUCSC\\Leggo2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\support_simple_spinner_dropdown_item.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "C:\\Users\\Harsh\\Desktop\\APP\\HACKUCSC\\Leggo2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\in_app_layout.xml",
         "source": "C:\\Users\\Harsh\\Desktop\\APP\\HACKUCSC\\Leggo2\\app\\build\\intermediates\\exploded-aar\\com.pyze\\PyzeLibrary\\2.1.0\\res\\layout\\in_app_layout.xml"
+=======
+        "merged": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
+        "source": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_action_bar_view_list_nav_layout.xml"
+>>>>>>> 0a35ba5bf5a68a87ac98546a0726c03fe9567a2f
     },
     {
         "merged": "C:\\Users\\Harsh\\Desktop\\APP\\HACKUCSC\\Leggo2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
@@ -96,6 +174,7 @@
         "source": "C:\\Users\\Harsh\\Desktop\\APP\\HACKUCSC\\Leggo2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.0\\res\\layout\\design_layout_snackbar.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "C:\\Users\\Harsh\\Desktop\\APP\\HACKUCSC\\Leggo2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
         "source": "C:\\Users\\Harsh\\Desktop\\APP\\HACKUCSC\\Leggo2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.0\\res\\layout\\design_navigation_item.xml"
     },
@@ -306,5 +385,213 @@
     {
         "merged": "C:\\Users\\Harsh\\Desktop\\APP\\HACKUCSC\\Leggo2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\previous_msg_list_layout.xml",
         "source": "C:\\Users\\Harsh\\Desktop\\APP\\HACKUCSC\\Leggo2\\app\\build\\intermediates\\exploded-aar\\com.pyze\\PyzeLibrary\\2.1.0\\res\\layout\\previous_msg_list_layout.xml"
+=======
+        "merged": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/res/merged/debug/layout/design_navigation_item_subheader.xml",
+        "source": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/res/layout/design_navigation_item_subheader.xml"
+    },
+    {
+        "merged": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/res/merged/debug/layout/design_text_input_password_icon.xml",
+        "source": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/res/layout/design_text_input_password_icon.xml"
+    },
+    {
+        "merged": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml",
+        "source": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/res/merged/debug/layout/in_app_detail_layout.xml",
+        "source": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/exploded-aar/com.pyze/PyzeLibrary/2.1.0/res/layout/in_app_detail_layout.xml"
+    },
+    {
+        "merged": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/res/merged/debug/layout/new_msg_list_layout.xml",
+        "source": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/exploded-aar/com.pyze/PyzeLibrary/2.1.0/res/layout/new_msg_list_layout.xml"
+    },
+    {
+        "merged": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
+        "source": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_header_item_layout.xml",
+        "source": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/res/merged/debug/layout/activity_sign_up.xml",
+        "source": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/src/main/res/layout/activity_sign_up.xml"
+    },
+    {
+        "merged": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",
+        "source": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/res/merged/debug/layout/select_dialog_multichoice_material.xml",
+        "source": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
+        "source": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/res/merged/debug/layout/notification_action_tombstone.xml",
+        "source": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
+        "source": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
+        "source": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/res/merged/debug/layout/activity_login.xml",
+        "source": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/src/main/res/layout/activity_login.xml"
+    },
+    {
+        "merged": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
+        "source": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/res/merged/debug/layout/design_navigation_menu.xml",
+        "source": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/res/layout/design_navigation_menu.xml"
+    },
+    {
+        "merged": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",
+        "source": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml",
+        "source": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/res/merged/debug/layout/activity_chat__room.xml",
+        "source": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/src/main/res/layout/activity_chat__room.xml"
+    },
+    {
+        "merged": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/res/merged/debug/layout/design_layout_snackbar.xml",
+        "source": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/res/layout/design_layout_snackbar.xml"
+    },
+    {
+        "merged": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
+        "source": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_search_view.xml"
+    },
+    {
+        "merged": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/res/merged/debug/layout/place_autocomplete_fragment.xml",
+        "source": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.4.0/res/layout/place_autocomplete_fragment.xml"
+    },
+    {
+        "merged": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/res/merged/debug/layout/mr_media_route_chooser_dialog.xml",
+        "source": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/layout/mr_media_route_chooser_dialog.xml"
+    },
+    {
+        "merged": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
+        "source": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/res/merged/debug/layout/place_autocomplete_progress.xml",
+        "source": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.4.0/res/layout/place_autocomplete_progress.xml"
+    },
+    {
+        "merged": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
+        "source": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/res/merged/debug/layout/design_bottom_navigation_item.xml",
+        "source": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/res/layout/design_bottom_navigation_item.xml"
+    },
+    {
+        "merged": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/res/merged/debug/layout/design_menu_item_action_area.xml",
+        "source": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/res/layout/design_menu_item_action_area.xml"
+    },
+    {
+        "merged": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/res/merged/debug/layout/activity_survey.xml",
+        "source": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/src/main/res/layout/activity_survey.xml"
+    },
+    {
+        "merged": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/res/merged/debug/layout/notification_action.xml",
+        "source": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/notification_action.xml"
+    },
+    {
+        "merged": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/res/merged/debug/layout/design_layout_tab_icon.xml",
+        "source": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/res/layout/design_layout_tab_icon.xml"
+    },
+    {
+        "merged": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/res/merged/debug/layout/mr_media_route_list_item.xml",
+        "source": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/layout/mr_media_route_list_item.xml"
+    },
+    {
+        "merged": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_material.xml",
+        "source": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/res/merged/debug/layout/activity_chat.xml",
+        "source": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/src/main/res/layout/activity_chat.xml"
+    },
+    {
+        "merged": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/res/merged/debug/layout/content_login.xml",
+        "source": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/src/main/res/layout/content_login.xml"
+    },
+    {
+        "merged": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/res/merged/debug/layout/abc_screen_content_include.xml",
+        "source": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_screen_content_include.xml"
+    },
+    {
+        "merged": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/res/merged/debug/layout/fragment_in_app_notification_layout.xml",
+        "source": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/exploded-aar/com.pyze/PyzeLibrary/2.9.1/res/layout/fragment_in_app_notification_layout.xml"
+    },
+    {
+        "merged": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/res/merged/debug/layout/abc_select_dialog_material.xml",
+        "source": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
+        "source": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/res/merged/debug/layout/notification_template_lines_media.xml",
+        "source": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/notification_template_lines_media.xml"
+    },
+    {
+        "merged": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
+        "source": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/res/merged/debug/layout/design_navigation_menu_item.xml",
+        "source": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/res/layout/design_navigation_menu_item.xml"
+    },
+    {
+        "merged": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/res/merged/debug/layout/abc_dialog_title_material.xml",
+        "source": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_button_bar_material.xml",
+        "source": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/res/merged/debug/layout/notification_template_media.xml",
+        "source": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/notification_template_media.xml"
+    },
+    {
+        "merged": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
+        "source": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_screen_simple.xml"
+    },
+    {
+        "merged": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
+        "source": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/res/merged/debug/layout/design_layout_tab_text.xml",
+        "source": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/res/layout/design_layout_tab_text.xml"
+    },
+    {
+        "merged": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/res/merged/debug/layout/previous_msg_list_layout.xml",
+        "source": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/exploded-aar/com.pyze/PyzeLibrary/2.1.0/res/layout/previous_msg_list_layout.xml"
+    },
+    {
+        "merged": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
+        "source": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/res/merged/debug/layout/activity_event.xml",
+        "source": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/src/main/res/layout/activity_event.xml"
+>>>>>>> 0a35ba5bf5a68a87ac98546a0726c03fe9567a2f
     }
 ]

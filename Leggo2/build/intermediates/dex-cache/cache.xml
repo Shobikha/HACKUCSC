@@ -3,15 +3,16 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\Harsh\Desktop\APP\HACKUCSC\Leggo2\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.0\jars\classes.jar"
+        jar="/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-module/9.6.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
-        <dex dex="C:\Users\Harsh\Desktop\APP\HACKUCSC\Leggo2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.1.0_c4d8e79425840b2e8c9b1b6199bbe7210b18774e\classes.dex" />
+        sha1="f861fce2e9fa167e7fe8d8558cf2cbb910b9fb34">
+        <dex dex="/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-module-9.6.0_9a2cfa6fd4885147d866cbd0a51fb4926585a690/classes.dex" />
     </item>
     <item
         is-multidex="true"
+<<<<<<< HEAD
         jar="C:\Users\Harsh\Desktop\APP\HACKUCSC\Leggo2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\8.4.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -49,14 +50,27 @@
     <item
         is-multidex="true"
         jar="C:\Users\Harsh\Desktop\APP\HACKUCSC\Leggo2\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.1.0\jars\classes.jar"
+=======
+        jar="/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.6.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
-        <dex dex="C:\Users\Harsh\Desktop\APP\HACKUCSC\Leggo2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.1.0_cb679f00f2f0c7243d830bd9bfb2f9540d69a928\classes.dex" />
+        sha1="74d1712880eb2b4ab37ddf3c6a3232c883756726">
+        <dex dex="/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-impl-9.6.0_26f52cf1461b2739f87875d63ad4b2b1349460a4/classes.dex" />
     </item>
     <item
         is-multidex="true"
+        jar="/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-clearcut/9.6.1/jars/classes.jar"
+>>>>>>> 0a35ba5bf5a68a87ac98546a0726c03fe9567a2f
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ee0ccb43f6ab276191b7f2d77c305fa9beb26db9">
+        <dex dex="/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-clearcut-9.6.1_2a54a76b884fd832201d08e6208a254ab659e1b7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+<<<<<<< HEAD
         jar="C:\Users\Harsh\Desktop\APP\HACKUCSC\Leggo2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\8.4.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -76,23 +90,27 @@
     <item
         is-multidex="true"
         jar="C:\Users\Harsh\Desktop\APP\HACKUCSC\Leggo2\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.0\jars\classes.jar"
+=======
+        jar="/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-iid/9.6.1/jars/classes.jar"
+>>>>>>> 0a35ba5bf5a68a87ac98546a0726c03fe9567a2f
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="aee64634871d88a419d59eb743c1258a60f19700">
-        <dex dex="C:\Users\Harsh\Desktop\APP\HACKUCSC\Leggo2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.1.0_ca3e25dd430913e0cac11e547ec2bcecd11dd8f2\classes.dex" />
+        sha1="0dfc12e4aacf514346ea866560c99807d032bc48">
+        <dex dex="/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-iid-9.6.1_191bd84764a05d7185e4c397c418a895fbfddcb2/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Harsh\Desktop\APP\HACKUCSC\Leggo2\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.6.0\jars\classes.jar"
+        jar="/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="bd11b3899f275668a9355f19cea2c2320f5f9d14">
-        <dex dex="C:\Users\Harsh\Desktop\APP\HACKUCSC\Leggo2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-common-9.6.0_54ccae55afcf43c968cd555aed0a009455af0c81\classes.dex" />
+        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
+        <dex dex="/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.1.0_b90721b8a404fda3ce193892d33661ebf1a47084/classes.dex" />
     </item>
     <item
         is-multidex="true"
+<<<<<<< HEAD
         jar="C:\Users\Harsh\Desktop\APP\HACKUCSC\Leggo2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\8.4.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -103,32 +121,36 @@
     <item
         is-multidex="true"
         jar="C:\Users\Harsh\Desktop\APP\HACKUCSC\Leggo2\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.0\jars\classes.jar"
+=======
+        jar="/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/jars/classes.jar"
+>>>>>>> 0a35ba5bf5a68a87ac98546a0726c03fe9567a2f
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\Harsh\Desktop\APP\HACKUCSC\Leggo2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.1.0_15718451e40585a706ed4b802e6ecc93244dff0d\classes.dex" />
+        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
+        <dex dex="/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.1.0_256b98866f5f5c62cff117221c06bea997fb838c/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Harsh\Desktop\APP\HACKUCSC\Leggo2\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.0\jars\classes.jar"
+        jar="/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/exploded-aar/com.pyze/PyzeLibrary/2.9.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
-        <dex dex="C:\Users\Harsh\Desktop\APP\HACKUCSC\Leggo2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.1.0_e04b2150b035c4948e1c3742323e8c54988d5974\classes.dex" />
+        sha1="c72ce5acd0cbf7e3e9ad2ebeeb13cf60b66045ae">
+        <dex dex="/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.pyze-PyzeLibrary-2.9.1_1c38923535f1d6dccaf2748d5047692124a73f4e/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Harsh\Desktop\APP\HACKUCSC\Leggo2\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database-connection\9.6.0\jars\classes.jar"
+        jar="/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.6.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="db0a4170961a16af6d7a5222bf90a5876eea4227">
-        <dex dex="C:\Users\Harsh\Desktop\APP\HACKUCSC\Leggo2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-connection-9.6.0_d33bdea14b5834fb331963ad656496b53fa353eb\classes.dex" />
+        sha1="4a36600281a648769411ef642c331851732bf29e">
+        <dex dex="/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tasks-9.6.1_c679d5f741503b28c5d7920dce66981f69474f38/classes.dex" />
     </item>
     <item
         is-multidex="true"
+<<<<<<< HEAD
         jar="C:\Users\Harsh\Desktop\APP\HACKUCSC\Leggo2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -148,32 +170,54 @@
     <item
         is-multidex="true"
         jar="C:\Users\Harsh\Desktop\APP\HACKUCSC\Leggo2\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth-common\9.6.0\jars\classes.jar"
+=======
+        jar="/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/9.6.1/jars/classes.jar"
+>>>>>>> 0a35ba5bf5a68a87ac98546a0726c03fe9567a2f
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="7a343e17f154f513a09c12946fae0f172be079ec">
-        <dex dex="C:\Users\Harsh\Desktop\APP\HACKUCSC\Leggo2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-common-9.6.0_ffc450e62c6f7b2e62c3b8b51fd9325f8f537f7b\classes.dex" />
+        sha1="80dd8bea08bc5fe10b10a3243b8279c856ccc690">
+        <dex dex="/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-messaging-9.6.1_96138dade3603faaed475d2a6c97e7fc262202b6/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Harsh\Desktop\APP\HACKUCSC\Leggo2\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.1.0\jars\classes.jar"
+        jar="/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/9.6.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="b266c8faa5af72e579b9da36ef35053ffed6ac64">
-        <dex dex="C:\Users\Harsh\Desktop\APP\HACKUCSC\Leggo2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-25.1.0_4d70a6d230214febb5d22bde339db4be941ee5e9\classes.dex" />
+        sha1="6ff796a3173787afe2e712f3aec6f5b99796118e">
+        <dex dex="/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-ads-lite-9.6.1_dc8d0f2a22297c9a0ea3a55a032742a9f9e72fd3/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Harsh\Desktop\APP\HACKUCSC\Leggo2\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.0\jars\classes.jar"
+        jar="/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
+        <dex dex="/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.1.0_14e9585a18834af05653747befd41895cff78dca/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1ef72e72bc0d05602c366582afa9439f58bb31d6">
+        <dex dex="/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-common-9.6.1_27d240d853d4a9dffe4b807c8e5062c0919da98e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
-        <dex dex="C:\Users\Harsh\Desktop\APP\HACKUCSC\Leggo2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.1.0_a2e79a703db3fd9a83bc2a5dde0394c225a177b1\classes.dex" />
+        <dex dex="/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.1.0_83321f18c08aeb507c667ddb2803066d728c4644/classes.dex" />
     </item>
     <item
         is-multidex="true"
+<<<<<<< HEAD
         jar="C:\Users\Harsh\Desktop\APP\HACKUCSC\Leggo2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\8.4.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -184,14 +228,18 @@
     <item
         is-multidex="true"
         jar="C:\Users\Harsh\Desktop\APP\HACKUCSC\Leggo2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.6.0\jars\classes.jar"
+=======
+        jar="/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/9.6.0/jars/classes.jar"
+>>>>>>> 0a35ba5bf5a68a87ac98546a0726c03fe9567a2f
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="f6afcfbf1989631424f9ceaae6ee24777d3cf6ba">
-        <dex dex="C:\Users\Harsh\Desktop\APP\HACKUCSC\Leggo2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-9.6.0_e17529535d7653b582bf8080e90dc74e6d9d20be\classes.dex" />
+        sha1="db0a4170961a16af6d7a5222bf90a5876eea4227">
+        <dex dex="/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-connection-9.6.0_0185135e84d3ac7e3541339bf58dd4d60440044c/classes.dex" />
     </item>
     <item
         is-multidex="true"
+<<<<<<< HEAD
         jar="C:\Users\Harsh\Desktop\APP\HACKUCSC\Leggo2\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\23.0.0\jars\libs\internal_impl-23.0.0.jar"
         jumboMode="true"
         optimize="true"
@@ -211,14 +259,18 @@
     <item
         is-multidex="true"
         jar="C:\Users\Harsh\Desktop\APP\HACKUCSC\Leggo2\app\build\intermediates\exploded-aar\com.android.support\design\25.1.0\jars\classes.jar"
+=======
+        jar="/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.0/jars/classes.jar"
+>>>>>>> 0a35ba5bf5a68a87ac98546a0726c03fe9567a2f
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="30103d98fa5ed824b54af839c85e2111f9bde8ec">
-        <dex dex="C:\Users\Harsh\Desktop\APP\HACKUCSC\Leggo2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-25.1.0_8390e4fabdae92398b475a3d4a3f646dc0796114\classes.dex" />
+        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
+        <dex dex="/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.1.0_e118ca89b4aba0883f0f261b62ae0891b195cd4a/classes.dex" />
     </item>
     <item
         is-multidex="true"
+<<<<<<< HEAD
         jar="C:\Users\Harsh\Desktop\APP\HACKUCSC\Leggo2\app\build\intermediates\exploded-aar\com.pyze\PyzeLibrary\2.1.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -229,14 +281,18 @@
     <item
         is-multidex="true"
         jar="C:\Users\Harsh\Desktop\APP\HACKUCSC\Leggo2\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.1.0\jars\classes.jar"
+=======
+        jar="/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/jars/classes.jar"
+>>>>>>> 0a35ba5bf5a68a87ac98546a0726c03fe9567a2f
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
-        <dex dex="C:\Users\Harsh\Desktop\APP\HACKUCSC\Leggo2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.1.0_c7639aee8dd6e7d62681af89fd3918d87f32d54e\classes.dex" />
+        sha1="aee64634871d88a419d59eb743c1258a60f19700">
+        <dex dex="/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.1.0_5c55a022c0c53bfc56e4edd362e435a8d60b878b/classes.dex" />
     </item>
     <item
         is-multidex="true"
+<<<<<<< HEAD
         jar="C:\Users\Harsh\Desktop\APP\HACKUCSC\Leggo2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.4.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -247,14 +303,18 @@
     <item
         is-multidex="true"
         jar="C:\Users\Harsh\Desktop\APP\HACKUCSC\Leggo2\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.6.0\jars\classes.jar"
+=======
+        jar="/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+>>>>>>> 0a35ba5bf5a68a87ac98546a0726c03fe9567a2f
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="d39f676be8400123523882d189a1d84040d34339">
-        <dex dex="C:\Users\Harsh\Desktop\APP\HACKUCSC\Leggo2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-iid-9.6.0_4a139ae360726b5cee4b5ca2865e1911dcf9558c\classes.dex" />
+        sha1="e164222c4678a94f81bc27e9d5ef3866aba6d492">
+        <dex dex="/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_b3f072f909cf09e74ffc9ae81a4856ae88853b08/classes.dex" />
     </item>
     <item
         is-multidex="true"
+<<<<<<< HEAD
         jar="C:\Users\Harsh\Desktop\APP\HACKUCSC\Leggo2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\8.4.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -274,32 +334,36 @@
     <item
         is-multidex="true"
         jar="C:\Users\Harsh\Desktop\APP\HACKUCSC\Leggo2\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.1.0\jars\classes.jar"
+=======
+        jar="/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.0/jars/classes.jar"
+>>>>>>> 0a35ba5bf5a68a87ac98546a0726c03fe9567a2f
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
-        <dex dex="C:\Users\Harsh\Desktop\APP\HACKUCSC\Leggo2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.1.0_f5c1504280f411a5e8b4cc7b0746ebc86736100a\classes.dex" />
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.1.0_bf972787acd426d62f54394177414f2dae3ec658/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Harsh\Desktop\APP\HACKUCSC\Leggo2\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth\9.6.0\jars\classes.jar"
+        jar="/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/9.6.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="580fa73d5bf63ffd04b9d66d0e75a2ed21842702">
-        <dex dex="C:\Users\Harsh\Desktop\APP\HACKUCSC\Leggo2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-9.6.0_096146245b2036d6763e731bad2d6effe481b42d\classes.dex" />
+        sha1="47bbb3ec4b31ba71e125241c090dabe70cbb4de7">
+        <dex dex="/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-ads-9.6.1_5fc8acdbcb6985d85306ac6e2bf976abf12a5203/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Harsh\Desktop\APP\HACKUCSC\Leggo2\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.1.0\jars\classes.jar"
+        jar="/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gass/9.6.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
-        <dex dex="C:\Users\Harsh\Desktop\APP\HACKUCSC\Leggo2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.1.0_559726f8a6cf98613e0a232be24935f87c3926ef\classes.dex" />
+        sha1="ee61ace5f3e488fc610e1c67693c49186a441f32">
+        <dex dex="/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gass-9.6.1_17a5ad0d5da91d36b8212ce156876cdc90d57759/classes.dex" />
     </item>
     <item
         is-multidex="true"
+<<<<<<< HEAD
         jar="C:\Users\Harsh\Desktop\APP\HACKUCSC\Leggo2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\8.4.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -310,14 +374,18 @@
     <item
         is-multidex="true"
         jar="C:\Users\Harsh\Desktop\APP\HACKUCSC\Leggo2\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth-module\9.6.0\jars\classes.jar"
+=======
+        jar="/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.6.1/jars/classes.jar"
+>>>>>>> 0a35ba5bf5a68a87ac98546a0726c03fe9567a2f
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="f861fce2e9fa167e7fe8d8558cf2cbb910b9fb34">
-        <dex dex="C:\Users\Harsh\Desktop\APP\HACKUCSC\Leggo2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-module-9.6.0_5ed1ea6340e0ac18277a0208956399ce7349bcc1\classes.dex" />
+        sha1="eccaaa9ffa6bb4bfbd2e870f01aaf69655d353be">
+        <dex dex="/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-9.6.1_9c15662678dfd9d377bb5054b5269e08e7771f90/classes.dex" />
     </item>
     <item
         is-multidex="true"
+<<<<<<< HEAD
         jar="C:\Users\Harsh\Desktop\APP\HACKUCSC\Leggo2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\8.4.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -328,14 +396,18 @@
     <item
         is-multidex="true"
         jar="C:\Users\Harsh\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.1.0\support-annotations-25.1.0.jar"
+=======
+        jar="/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/jars/classes.jar"
+>>>>>>> 0a35ba5bf5a68a87ac98546a0726c03fe9567a2f
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
-        <dex dex="C:\Users\Harsh\Desktop\APP\HACKUCSC\Leggo2\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.1.0_cf9ea8afcd90a87cfab4b14830184a7936db58f1\classes.dex" />
+        sha1="30103d98fa5ed824b54af839c85e2111f9bde8ec">
+        <dex dex="/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-25.1.0_4861d644b9887298c80b1a30bba756bb33cd6a12/classes.dex" />
     </item>
     <item
         is-multidex="true"
+<<<<<<< HEAD
         jar="C:\Users\Harsh\Desktop\APP\HACKUCSC\Leggo2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -364,23 +436,36 @@
     <item
         is-multidex="true"
         jar="C:\Users\Harsh\Desktop\APP\HACKUCSC\Leggo2\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.6.0\jars\classes.jar"
+=======
+        jar="/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-common/9.6.0/jars/classes.jar"
+>>>>>>> 0a35ba5bf5a68a87ac98546a0726c03fe9567a2f
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="a9f41e6463de88c3f979d796382fc24fb7e9cd41">
-        <dex dex="C:\Users\Harsh\Desktop\APP\HACKUCSC\Leggo2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-9.6.0_7d9bf360060a6eba56e7a06c44bb63bbb8c469d1\classes.dex" />
+        sha1="7a343e17f154f513a09c12946fae0f172be079ec">
+        <dex dex="/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-common-9.6.0_3cfc79d86257762ea15bb49e02a1f0d2cf9bafd5/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Harsh\Desktop\APP\HACKUCSC\Leggo2\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\9.6.0\jars\classes.jar"
+        jar="/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.6.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="74d1712880eb2b4ab37ddf3c6a3232c883756726">
-        <dex dex="C:\Users\Harsh\Desktop\APP\HACKUCSC\Leggo2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-impl-9.6.0_21eb7984da4d6616a9634edd553cc687e8ad07ef\classes.dex" />
+        sha1="af7582c6b327449c6d32518e6a10307860b7b5d6">
+        <dex dex="/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-9.6.1_048dca7bb822376c709a1509878e90a7c4bfc1a9/classes.dex" />
     </item>
     <item
         is-multidex="true"
+        jar="/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
+        <dex dex="/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.1.0_ba7c017fea8d40b50c9dd802431ab1aa84c35e1e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+<<<<<<< HEAD
         jar="C:\Users\Harsh\Desktop\APP\HACKUCSC\Leggo2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\8.4.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -400,32 +485,59 @@
     <item
         is-multidex="true"
         jar="C:\Users\Harsh\Desktop\APP\HACKUCSC\Leggo2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.6.0\jars\classes.jar"
+=======
+        jar="/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/9.6.1/jars/classes.jar"
+>>>>>>> 0a35ba5bf5a68a87ac98546a0726c03fe9567a2f
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="93a0248fe0524b4fa2d16f5f7c3cff8452796454">
-        <dex dex="C:\Users\Harsh\Desktop\APP\HACKUCSC\Leggo2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-9.6.0_edcbec974a0dcdff0648cb63819cb99a651f5c0b\classes.dex" />
+        sha1="ad7706f8bb4a985656a8d2142f74021c8b0e03d8">
+        <dex dex="/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gcm-9.6.1_fd1033e867fcaa0e4f87ec4b01db6e9056bf103c/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Harsh\Desktop\APP\HACKUCSC\Leggo2\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jar="/Users/alex/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.0/support-annotations-25.1.0.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
+<<<<<<< HEAD
         sha1="3377aeb16850c6b2c1fa6ebdf155a511299e7382">
         <dex dex="C:\Users\Harsh\Desktop\APP\HACKUCSC\Leggo2\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_61d6f3d28ef977650766c1a3907999c3512b3ca3\classes.dex" />
+=======
+        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
+        <dex dex="/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.1.0_652f0eb07d0e421600fbecefcc2c04a3bc8c1ed1/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Harsh\Desktop\APP\HACKUCSC\Leggo2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.6.0\jars\classes.jar"
+        jar="/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="614b2ffd04818e865e1c02cc149c6b92e518e862">
-        <dex dex="C:\Users\Harsh\Desktop\APP\HACKUCSC\Leggo2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-9.6.0_92c4b3398b53c0e7f4d519d9fd015bd8f74d1987\classes.dex" />
+        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
+        <dex dex="/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.1.0_373945f910eb9f78800b38d7b998353c334f018f/classes.dex" />
     </item>
     <item
         is-multidex="true"
+        jar="/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth/9.6.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="580fa73d5bf63ffd04b9d66d0e75a2ed21842702">
+        <dex dex="/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-9.6.0_2b4c0c5d89e201ae4086b5ba642100d3cba50a26/classes.dex" />
+>>>>>>> 0a35ba5bf5a68a87ac98546a0726c03fe9567a2f
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="101a1e1872a97c057a5bc0f3b20a1296f50e3e41">
+        <dex dex="/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_302a4ba9cf970ddc809fc0bc05fc4b2caeb083dc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+<<<<<<< HEAD
         jar="C:\Users\Harsh\Desktop\APP\HACKUCSC\Leggo2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\8.4.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -436,20 +548,50 @@
     <item
         is-multidex="true"
         jar="C:\Users\Harsh\Desktop\APP\HACKUCSC\Leggo2\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database\9.6.0\jars\classes.jar"
+=======
+        jar="/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1e14ebe1cda8491f152083e752ca5bf73cd37bff">
+        <dex dex="/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-iid-9.6.1_00dbd6c9955fc4980bc6981b65f722a891cd72dc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database/9.6.0/jars/classes.jar"
+>>>>>>> 0a35ba5bf5a68a87ac98546a0726c03fe9567a2f
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="5243af50631020511cf2403789678149b1a319e6">
-        <dex dex="C:\Users\Harsh\Desktop\APP\HACKUCSC\Leggo2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-9.6.0_195bd01a5eaa7bded9265b03266b2852d9ee977e\classes.dex" />
+        <dex dex="/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-9.6.0_c48e513001e09bde15c7ddb7047c7e48975c5d96/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Harsh\Desktop\APP\HACKUCSC\Leggo2\app\build\intermediates\exploded-aar\com.android.support\transition\25.1.0\jars\classes.jar"
+        jar="/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b266c8faa5af72e579b9da36ef35053ffed6ac64">
+        <dex dex="/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-25.1.0_850541b783bd723bcd63f5f9015583f31b19bd7a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.6.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a9f41e6463de88c3f979d796382fc24fb7e9cd41">
+        <dex dex="/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-9.6.0_a78b6152e7705e683f49086aa12eeb90d2d8433c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/exploded-aar/com.android.support/transition/25.1.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="d38084015027549951cbaea5d5f6fb795cc81151">
-        <dex dex="C:\Users\Harsh\Desktop\APP\HACKUCSC\Leggo2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-transition-25.1.0_49ec98364953b32717a0b775d4412a7cba1e3c9f\classes.dex" />
+        <dex dex="/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-transition-25.1.0_e7c941c4e059197a23ba07cd4c3cea6af984eb40/classes.dex" />
     </item>
     <item
         is-multidex="true"

@@ -228,7 +228,11 @@
                     "endOffset": 2096
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\Harsh\\Desktop\\APP\\HACKUCSC\\Leggo2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-v14\\values-v14.xml",
+=======
+                    "file": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v14/values-v14.xml",
+>>>>>>> 0a35ba5bf5a68a87ac98546a0726c03fe9567a2f
                     "position": {
                         "startLine": 29,
                         "startColumn": 4,

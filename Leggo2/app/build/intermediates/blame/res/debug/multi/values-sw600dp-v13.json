@@ -311,6 +311,7 @@
                     "startLine": 18,
                     "startColumn": 4,
                     "startOffset": 1170,
+<<<<<<< HEAD
                     "endColumn": 72,
                     "endOffset": 1238
                 },
@@ -335,6 +336,13 @@
                 },
                 "from": {
                     "file": "C:\\Users\\Harsh\\Desktop\\APP\\HACKUCSC\\Leggo2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+=======
+                    "endColumn": 62,
+                    "endOffset": 1228
+                },
+                "from": {
+                    "file": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+>>>>>>> 0a35ba5bf5a68a87ac98546a0726c03fe9567a2f
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -346,6 +354,7 @@
             },
             {
                 "to": {
+<<<<<<< HEAD
                     "startLine": 20,
                     "startColumn": 4,
                     "startOffset": 1306,
@@ -355,6 +364,17 @@
                 },
                 "from": {
                     "file": "C:\\Users\\Harsh\\Desktop\\APP\\HACKUCSC\\Leggo2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+=======
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1233,
+                    "endLine": 22,
+                    "endColumn": 12,
+                    "endOffset": 1410
+                },
+                "from": {
+                    "file": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+>>>>>>> 0a35ba5bf5a68a87ac98546a0726c03fe9567a2f
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,

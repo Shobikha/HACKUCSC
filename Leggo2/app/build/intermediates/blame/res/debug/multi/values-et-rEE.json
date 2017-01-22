@@ -368,6 +368,7 @@
                     "startLine": 21,
                     "startColumn": 4,
                     "startOffset": 2026,
+<<<<<<< HEAD
                     "endColumn": 111,
                     "endOffset": 2133
                 },
@@ -620,6 +621,13 @@
                 },
                 "from": {
                     "file": "C:\\Users\\Harsh\\Desktop\\APP\\HACKUCSC\\Leggo2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-et-rEE\\values-et-rEE.xml",
+=======
+                    "endColumn": 81,
+                    "endOffset": 2103
+                },
+                "from": {
+                    "file": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-et-rEE/values-et-rEE.xml",
+>>>>>>> 0a35ba5bf5a68a87ac98546a0726c03fe9567a2f
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,
@@ -631,6 +639,7 @@
             },
             {
                 "to": {
+<<<<<<< HEAD
                     "startLine": 35,
                     "startColumn": 4,
                     "startOffset": 3483,
@@ -639,6 +648,16 @@
                 },
                 "from": {
                     "file": "C:\\Users\\Harsh\\Desktop\\APP\\HACKUCSC\\Leggo2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-et-rEE\\values-et-rEE.xml",
+=======
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 2108,
+                    "endColumn": 100,
+                    "endOffset": 2204
+                },
+                "from": {
+                    "file": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-et-rEE/values-et-rEE.xml",
+>>>>>>> 0a35ba5bf5a68a87ac98546a0726c03fe9567a2f
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,
