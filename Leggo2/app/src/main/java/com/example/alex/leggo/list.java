@@ -6,81 +6,198 @@ package com.example.alex.leggo;
 
 public class list {
 
-    class Node{
+    private class Node
+    {
         String name;
         String date;
         String desc;
+        Node prev;
         Node next;
 
-        public Node(){
-            //default constructor
+        //constructor
+        Node(String name, String date, String desc) {
+            this.name = name;
+            this.date = date;
+            this.desc = desc;
+            prev = null;
+            next = null;
         }
     }
 
 
-    String[] itemList = {"fieldTrips", "game", "music", "networking", "photography", "program", "sports", "all"};
-    private int length;
-    private Node back;
-    private Node head;
-    private Node curr;
+    //Variables for List
+    private Node front; 	//head of the list
+    private Node back; 		//tail of the list
+    private Node cursor;	//current node ofthe list
+    private int length;		//length of the list
+    private int index;		//index of the cursor
 
-    public list () {
-        length = 0;
-        head = null;
+    String[] itemList = {"fieldTrips", "game", "music", "networking", "photography", "program", "sports", "all"};
+
+    //creates a new empty list.
+    public list() {
+        front = null;
         back = null;
-        curr = null;
+        cursor = null;
+        length = 0;
+        index = -1;
+    }
+
+    public String getItem(int i){
+        return itemList[i];
+    }
+
+    public int length(){
+        return length;
+    }
+
+    public int index() {
+        return index;
     }
 
     public Node getHead(){
-        return head;
+        return front;
     }
 
     public Node getCurr(){
-        return curr;
+        return cursor;
     }
 
     public Node getBack(){
         return back;
     }
 
-    public void add(String name, String date, String desc){
-        Node N = new Node();
-
-        if(head == null){
-            N.name = name;
-            N.date = date;
-            N.desc = desc;
-            N.next = null;
-            head = N;
-            back = N;
-            curr = N;
-            length++;
-        }
-        else{
-            N.name = name;
-            N.date = date;
-            N.desc = desc;
-            N.next = null;
-            back.next = N;
-            back = N;
-            curr = N;
+    // Inserts new element after cursor.
+    // Pre: length()>0, index()>=0
+    public void insertAfter(String name, String date, String desc)
+    {
+        Node node = new Node(name, date, desc);
+       if(length() > 0 && index >= 0) {
+            if(index() == length() -1) {
+                cursor.next = node;
+                node.prev = cursor;
+                back = node;
+            }
+            else {
+                node.prev = cursor;
+                node.next = cursor.next;
+                cursor.next.prev = node;
+                cursor.next = node;
+            }
             length++;
         }
     }
 
-    public void delete(Node N){
-        
+    // Deletes the front element. Pre: length()>0
+    public void deleteFront()
+    {
+      {
+            if(length() > 1) {
+                if(cursor.equals(front)){
+                    cursor = front.next;
+                    index++;
+                }
+                front = front.next;
+                front.prev = null;
+                index--;
+                length--;
+            }
+            else{
+                clear();
+            }
+        }
     }
-    public boolean endOfList(list l) {
+
+    // Deletes the back element. Pre: length()>0
+    public void deleteBack()
+    {
+         {
+            if(length() > 1) {
+                if(cursor.equals(back)){
+                    cursor = back.prev;
+                    index--;
+                }
+                back = back.prev;
+                back.next = null;
+                length--;
+            }
+            else{
+                clear();
+            }
+        }
+    }
+
+    // Deletes cursor element, making cursor undefined.
+    // Pre: length()>0, index()>=0
+    public void delete()
+    {
+        if(index() == 0) {
+            deleteFront();
+            cursor = null;
+        }
+        else if(index() == length() - 1) {
+            deleteBack();
+            cursor = null;
+        }
+        else if(index() > 0 && index() < length() - 1)
+        {
+            cursor.prev.next = cursor.next;
+            cursor.next.prev = cursor.prev;
+            cursor = null;
+        }
+        length--;
+        index = -1;
+    }
+
+    public void clear()
+    {
+        front = null;
+        back = null;
+        cursor = null;
+        length = 0;
+        index = -1;
+    }
+
+    public void moveFront()
+    {
+        if(length() > 0) {
+            cursor = front;
+            index = 0;
+        }
+    }
+
+    public void moveBack()
+    {
+        if(length() > 0) {
+            cursor = back;
+            index = length() - 1;
+        }
+    }
 
 
-        return true;
+    public void movePrev()
+    {
+        if(index() > 0 && cursor != null) {
+            cursor = cursor.prev;
+            index --;
+        }
+        else if(index() == 0 && cursor != null) {
+            cursor = null;
+            index = -1;
+        }
     }
 
-    public String getItem(int i) {
-        return itemList[i];
+
+    public void moveNext()
+    {
+        if(cursor != null && index() < length() - 1) {
+            cursor = cursor.next;
+            index++;
+        }
+        else if( index() == length() - 1 && cursor != null) {
+            cursor = null;
+            index = -1;
+        }
     }
-    public int length() {
-        return length;
-    }
+
 }
