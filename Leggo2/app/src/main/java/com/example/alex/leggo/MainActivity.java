@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void StartChat() {
         finish();
-        Intent myEvent = new Intent(getApplicationContext(), ChatActivity.class);
+        Intent myEvent = new Intent(getApplicationContext(), Chat_Room.class);
         startActivity(myEvent);
     }
     public void StartSurvey() {

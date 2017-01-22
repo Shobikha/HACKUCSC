@@ -15,6 +15,5 @@ public class ChatActivity extends AppCompatActivity {
         Button send_msg = (Button) findViewById(R.id.send);
         EditText edit_msg = (EditText) findViewById(R.id.editText);
         TextView recieve_msg = (TextView) findViewById(R.id.recieve);
-
     }
 }

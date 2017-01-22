@@ -5,8 +5,9 @@
     density="420dpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="345605468356320"
-    token="8868035508432785337" >
+    timestamp="347082058093928"
+    token="8868035508432785337"
+    verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
@@ -28,6 +29,15 @@
             location="C:\Users\Harsh\Desktop\APP\HACKUCSC\Leggo2\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
     </build>
-    <build timestamp="345605468356320" />
+    <build
+        timestamp="347034561606212"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Users\Harsh\Desktop\APP\HACKUCSC\Leggo2\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5\classes.dex"
+            type="DEX" />
+    </build>
+    <build
+        timestamp="347082058093928"
+        verifier="COLD_SWAP_REQUESTED" />
 
 </instant-run>
