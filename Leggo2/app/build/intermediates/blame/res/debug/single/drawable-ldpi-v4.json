@@ -1,5 +1,9 @@
 [
     {
+<<<<<<< HEAD
+        "merged": "C:\\Users\\Harsh\\Desktop\\APP\\HACKUCSC\\Leggo2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\common_ic_googleplayservices.png",
+        "source": "C:\\Users\\Harsh\\Desktop\\APP\\HACKUCSC\\Leggo2\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.6.0\\res\\drawable-ldpi-v4\\common_ic_googleplayservices.png"
+=======
         "merged": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/common_ic_googleplayservices.png",
         "source": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.6.1/res/drawable-ldpi-v4/common_ic_googleplayservices.png"
     },
@@ -10,5 +14,6 @@
     {
         "merged": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/ic_keyboard_arrow_right_black_24dp.png",
         "source": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/exploded-aar/com.pyze/PyzeLibrary/2.9.1/res/drawable-ldpi-v4/ic_keyboard_arrow_right_black_24dp.png"
+>>>>>>> 0a35ba5bf5a68a87ac98546a0726c03fe9567a2f
     }
 ]

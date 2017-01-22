@@ -1,6 +1,10 @@
 [
     {
+<<<<<<< HEAD
+        "outputFile": "C:\\Users\\Harsh\\Desktop\\APP\\HACKUCSC\\Leggo2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
+=======
         "outputFile": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w820dp-v13/values-w820dp-v13.xml",
+>>>>>>> 0a35ba5bf5a68a87ac98546a0726c03fe9567a2f
         "map": [
             {
                 "to": {
@@ -11,6 +15,15 @@
                     "endOffset": 108
                 },
                 "from": {
+<<<<<<< HEAD
+                    "file": "C:\\Users\\Harsh\\Desktop\\APP\\HACKUCSC\\Leggo2\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 295,
+                        "endColumn": 57,
+                        "endOffset": 348
+=======
                     "file": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/src/main/res/values-w820dp/dimens.xml",
                     "position": {
                         "startLine": 4,
@@ -18,6 +31,7 @@
                         "startOffset": 291,
                         "endColumn": 57,
                         "endOffset": 344
+>>>>>>> 0a35ba5bf5a68a87ac98546a0726c03fe9567a2f
                     }
                 }
             }

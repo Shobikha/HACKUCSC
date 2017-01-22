@@ -2,25 +2,38 @@
 <instant-run
     abi="x86"
     api-level="23"
-    density="xxhdpi"
+    density="420dpi"
     format="8"
     plugin-version="2.2.3"
+<<<<<<< HEAD
+    timestamp="370170567688386"
+    token="8868035508432785337"
+    verifier="FULL_BUILD_REQUESTED" >
+=======
     timestamp="215207996330847"
     token="-5220900882087580483"
     verifier="R_CLASS_CHANGE" >
+>>>>>>> 0a35ba5bf5a68a87ac98546a0726c03fe9567a2f
 
     <task
         name="javac"
-        duration="0" />
+        duration="40888" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
+<<<<<<< HEAD
+        duration="1682" />
+    <task
+        name="verifier"
+        duration="1412" />
+=======
         duration="83" />
     <task
         name="verifier"
         duration="4" />
+>>>>>>> 0a35ba5bf5a68a87ac98546a0726c03fe9567a2f
 
     <artifact
         location="/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
@@ -30,8 +43,13 @@
         type="DEX" />
 
     <build
+<<<<<<< HEAD
+        timestamp="370170567688386"
+        verifier="FULL_BUILD_REQUESTED" >
+=======
         timestamp="214224718869799"
         verifier="MANIFEST_FILE_CHANGE" >
+>>>>>>> 0a35ba5bf5a68a87ac98546a0726c03fe9567a2f
         <artifact
             location="/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />

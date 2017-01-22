@@ -1,6 +1,11 @@
 [
     {
+<<<<<<< HEAD
+        "merged": "C:\\Users\\Harsh\\Desktop\\APP\\HACKUCSC\\Leggo2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\ic_launcher.png",
+        "source": "C:\\Users\\Harsh\\Desktop\\APP\\HACKUCSC\\Leggo2\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+=======
         "merged": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/res/merged/debug/mipmap-xhdpi-v4/ic_launcher.png",
         "source": "/Users/alex/Desktop/HACKUCSC/Leggo2/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+>>>>>>> 0a35ba5bf5a68a87ac98546a0726c03fe9567a2f
     }
 ]
