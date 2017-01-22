@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sun Jan 22 05:03:36 PST 2017
+#Sun Jan 22 05:19:57 PST 2017
 210.set=ANDROID_RESOURCE
 282.file=/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/res/resources-debug.ap_/res/color-v23/abc_color_highlight_material.xml
 14.set=ANDROID_RESOURCE

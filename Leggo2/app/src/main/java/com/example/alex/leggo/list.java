@@ -30,7 +30,9 @@ public class list {
         back = null;
         curr = null;
     }
-
+    public int arraySize(){
+        return itemList.length;
+    }
     public Node getHead(){
         return head;
     }

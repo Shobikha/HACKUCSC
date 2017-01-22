@@ -31,7 +31,7 @@ public class CategoryActivity extends Activity {
 
         final CheckBox checkProgram = (CheckBox) findViewById(R.id.program);
         list items = new list();
-        int numOfItems = items.length();
+        int numOfItems = items.arraySize();
         CheckBox[] chkItem = new CheckBox[numOfItems];
 
         chkItem[0] = (CheckBox) findViewById(R.id.fieldTrips);

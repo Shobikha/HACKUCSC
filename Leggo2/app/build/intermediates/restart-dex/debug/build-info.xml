@@ -5,26 +5,29 @@
     density="xxhdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="214469098285724"
+    timestamp="215207996330847"
     token="-5220900882087580483"
-    verifier="COMPATIBLE" >
+    verifier="R_CLASS_CHANGE" >
 
     <task
         name="javac"
         duration="0" />
     <task
         name="instant-run-dex"
-        duration="1349" />
+        duration="0" />
     <task
         name="instant-run-transform"
-        duration="243" />
+        duration="83" />
     <task
         name="verifier"
-        duration="42" />
+        duration="4" />
 
     <artifact
-        location="/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/reload-dex/debug/classes.dex"
-        type="RELOAD_DEX" />
+        location="/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
+        type="RESOURCES" />
+    <artifact
+        location="/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex"
+        type="DEX" />
 
     <build
         timestamp="214224718869799"
@@ -34,11 +37,14 @@
             type="MAIN" />
     </build>
     <build
-        timestamp="214469098285724"
-        verifier="COMPATIBLE" >
+        timestamp="215207996330847"
+        verifier="R_CLASS_CHANGE" >
         <artifact
-            location="/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/reload-dex/debug/classes.dex"
-            type="RELOAD_DEX" />
+            location="/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
+            type="RESOURCES" />
+        <artifact
+            location="/Users/alex/Desktop/HACKUCSC/Leggo2/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex"
+            type="DEX" />
     </build>
 
 </instant-run>
