@@ -22,8 +22,8 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
-        final ImageButton b2 = (ImageButton) findViewById(R.id.event);
-        button.setOnClickListener(new View.OnClickListener() {
+        final ImageButton b2 = (ImageButton) findViewById(R.id.survey);
+        b2.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // Perform action on click
                 StartSurvey();
@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
         });
     }
     public void StartSurvey() {
-        Intent myEvent = new Intent(getApplicationContext(), StartSurvey().class);
+        Intent myEvent = new Intent(getApplicationContext(), SurveyActivity.class);
         startActivity(myEvent);
     }
     public void StartEvent() {

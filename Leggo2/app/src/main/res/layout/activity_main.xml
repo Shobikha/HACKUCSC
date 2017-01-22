@@ -32,7 +32,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/chat"
-        android:id="@+id/imageButton"
+        android:id="@+id/chat"
         android:layout_alignBottom="@+id/event"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
@@ -44,7 +44,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/surveybutton"
-        android:id="@+id/imageButton3"
+        android:id="@+id/survey"
         android:layout_below="@+id/event"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
