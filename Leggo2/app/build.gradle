@@ -23,7 +23,6 @@ android {
 }
 
 dependencies {
-    compile 'com.pyze:PyzeLibrary:2.1.0'
 
     // Usage example: compile 'com.pyze:PyzeLibrary:2.+'
     // The latest version can always be obtained from Bintray here
@@ -31,6 +30,7 @@ dependencies {
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
+    compile 'com.pyze:PyzeLibrary:2.9.1'
     compile 'com.android.support:appcompat-v7:25.1.0'
     compile 'com.android.support:design:25.1.0'
     compile 'com.google.firebase:firebase-core:9.6.0'
