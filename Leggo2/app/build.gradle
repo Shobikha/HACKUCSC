@@ -23,6 +23,10 @@ android {
 }
 
 dependencies {
+
+
+    // Usage example: compile 'com.pyze:PyzeLibrary:2.+'
+    // The latest version can always be obtained from Bintray here
     compile fileTree(dir: 'libs', include: ['*.jar'])
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
@@ -33,6 +37,7 @@ dependencies {
     compile 'com.google.firebase:firebase-auth:9.6.0'
     compile 'com.google.firebase:firebase-database:9.6.0'
  //   compile 'com.google.firebase:firebase-android:2.4.0'
+    compile 'com.pyze:PyzeLibrary:2.1.0'
     testCompile 'junit:junit:4.12'
 }
 
