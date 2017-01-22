@@ -20,6 +20,9 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
+import com.google.firebase.FirebaseApp;
+import com.google.firebase.FirebaseException;
+
 public class SignUpActivity extends AppCompatActivity implements View.OnClickListener{
 
     private EditText firstName;
@@ -37,6 +40,7 @@ public class SignUpActivity extends AppCompatActivity implements View.OnClickLis
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sign_up);
+
 
         firebaseAuth = FirebaseAuth.getInstance();
         prog = new ProgressDialog(this);
@@ -64,10 +68,10 @@ public class SignUpActivity extends AppCompatActivity implements View.OnClickLis
     private void enrollUser(){
         final String nameFirst = firstName.getText().toString().trim();
         final String nameLast = lastName.getText().toString().trim();
-        String add = userAdd.getText().toString().trim();
-        String Age = userAge.getText().toString().trim();
-        String userEmail = newEmail.getText().toString().trim();
-        String userPass = newPass.getText().toString().trim();
+        final String add = userAdd.getText().toString().trim();
+        final String Age = userAge.getText().toString().trim();
+        final String userEmail = newEmail.getText().toString().trim();
+        final String userPass = newPass.getText().toString().trim();
 
         if(TextUtils.isEmpty(nameFirst)){
             //Trow an error in andriod we call it toast
@@ -109,9 +113,18 @@ public class SignUpActivity extends AppCompatActivity implements View.OnClickLis
                     //display a successful message
                     Toast.makeText(SignUpActivity.this, "Successfully Registered!", Toast.LENGTH_SHORT).show();
 
-                    User x = new User();
-                    System.out.println("Under USer\n");
-                    x.setName(nameFirst, nameLast);
+                    DatabaseReference ref = FirebaseDatabase.getInstance().getReference();
+                    User person = new User();
+                    person.setUid(firebaseAuth.getCurrentUser().getUid());
+                    person.setFirstName(nameFirst);
+                    person.setLastName(nameLast);
+                    person.setAge(Age);
+                    person.setEmail(userEmail);
+
+                    ref.child("People").child(firebaseAuth.getCurrentUser().getUid()).setValue(person);
+
+                    //User person = new User(firebaseAuth.getCurrentUser().getUid(), nameFirst, nameLast, Age, userEmail);
+                    //person.addUser(firebaseAuth.getCurrentUser().getUid(), nameFirst, nameLast, Age, userEmail);
                     finish();
                     Intent myEvent = new Intent(getApplicationContext(), MainActivity.class);
                     startActivity(myEvent);

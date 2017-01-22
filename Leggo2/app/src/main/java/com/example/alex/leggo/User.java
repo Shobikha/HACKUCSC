@@ -12,41 +12,40 @@ import com.google.firebase.database.FirebaseDatabase;
 
 public class User {
 
-    FirebaseDatabase database;
-    DatabaseReference myRef;
-
-    String key, firstName, lastName, age;
+    String uid, firstName, lastName, age, email;
     public User(){
-        this.key = "555";
-        database = FirebaseDatabase.getInstance();
-        myRef = database.getReference();
+        //Deafult Constructor
     }
-    public User(String firstName, String lastName, String age){
-        this.key = "555";
+
+    public void setUid(String uid){
+        this.uid = uid;
+    }
+    public void setFirstName(String firstName){
         this.firstName = firstName;
+    }
+    public void setLastName(String lastName){
         this.lastName = lastName;
-        this.age = age;
-        database = FirebaseDatabase.getInstance();
-        myRef = database.getReference();
     }
-
-    public void setName(String firstName, String lastName){
-        Log.i("HEY", "" + myRef.child("people"));
-    }
-
     public void setAge(String age){
         this.age = age;
     }
+    public void setEmail(String email){
+        this.email = email;
+    }
 
-    String getFirstName(){
+
+    public String getFirstName(){
         return this.firstName;
     }
 
-    String getLastName(){
+    public String getLastName(){
         return this.lastName;
     }
-    String getAge(){
+    public String getAge(){
         return this.age;
+    }
+    public String getEmail(){
+        return this.email;
     }
 
 }
