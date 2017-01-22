@@ -23,6 +23,10 @@ android {
 }
 
 dependencies {
+    compile 'com.pyze:PyzeLibrary:---Latest-Version---'
+
+    // Usage example: compile 'com.pyze:PyzeLibrary:2.+'
+    // The latest version can always be obtained from Bintray here
     compile fileTree(dir: 'libs', include: ['*.jar'])
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
