@@ -1,29 +1,25 @@
 {
   "project_info": {
-    "project_number": "843251979869",
-    "firebase_url": "https://chatting-2c091.firebaseio.com",
-    "project_id": "chatting-2c091",
-    "storage_bucket": "chatting-2c091.appspot.com"
+    "project_number": "727968014788",
+    "firebase_url": "https://chatroom-aea87.firebaseio.com",
+    "project_id": "chatroom-aea87",
+    "storage_bucket": "chatroom-aea87.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:843251979869:android:11d9367456d26f5f",
+        "mobilesdk_app_id": "1:727968014788:android:11d9367456d26f5f",
         "android_client_info": {
           "package_name": "com.example.alex.leggo"
         }
       },
       "oauth_client": [
         {
-          "client_id": "843251979869-k3vbk9pdpa6pdv2l0uhsuj16int57pi8.apps.googleusercontent.com",
+          "client_id": "727968014788-98i3kk3m8nsvrjubjdcl8um2n7fcn99s.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyAQg7D_cftXXvT1B8GPic6hWZ-D0wO94Vo"
-        }
-      ],
+      "api_key": [],
       "services": {
         "analytics_service": {
           "status": 1
