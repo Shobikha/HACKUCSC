@@ -23,7 +23,7 @@ android {
 }
 
 dependencies {
-    compile 'com.pyze:PyzeLibrary:---Latest-Version---'
+    compile 'com.pyze:PyzeLibrary:2.1.0'
 
     // Usage example: compile 'com.pyze:PyzeLibrary:2.+'
     // The latest version can always be obtained from Bintray here
